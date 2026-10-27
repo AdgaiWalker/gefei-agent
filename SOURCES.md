@@ -3,7 +3,7 @@
 最后更新：2026-10-27（UTC+8）。
 
 ## 1. 公众号「哥飞」文章（主来源）
-- 已蒸馏到 **2026-10-26** 及以前发布的文章（共约 862 篇）。卡片中以 `YYYYMMDD` 引用，对应标题与原文链接见 [sources/articles-index.md](sources/articles-index.md)。
+- 已蒸馏到 **2026-10-26** 及以前发布的文章（共约 862 篇）。全部 862 篇（去重后）的日期、标题、原文链接见 [sources/articles-index.md](sources/articles-index.md)，卡片中以 `YYYYMMDD` 引用。
 - 部分早期文章文本取自 GitHub 公开导出 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)。
 - 本仓库**不包含文章正文**，只含提炼后的方法和简短引用。
 
@@ -23,7 +23,7 @@
 **明确排除**：hlwhut225/gefei-knowledge-base 中原文标注"不要外传"的两篇（judgeKey/29、jinjiejiaocheng/01），其任何内容均未收录。
 
 ## 3. 公开流传的哥飞群聊截图
-- 2026-10-04（ChatGPT/GEO 推荐流量）、2026-10-22（技能链、Sprunki 商标、月入万刀算账、新词量级、adsterra 广告）。只提炼哥飞本人发言，未收录截图原图和完整转录。2026-10-22 Sprunki 一段截图不完整。
+- 2026-10-04（ChatGPT/GEO 推荐流量）、2026-10-22（技能链、Sprunki 商标、月入万刀算账、新词量级、adsterra 广告）。哥飞本人发言文字见 [sources/group-chat/](sources/group-chat/)；未收录截图原图和其他群友发言。2026-10-22 Sprunki 一段截图不完整。
 - 哥飞本人表示是猜测的内容标为【推测】。
 
 ## 4. 校验

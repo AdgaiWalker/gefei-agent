@@ -30,7 +30,7 @@
 
 详见 [SOURCES.md](SOURCES.md)。
 
-1. **公众号「哥飞」**（主来源）：2019–2026-10-26 的公开文章。引用文章索引（日期、标题、原文链接）见 [sources/articles-index.md](sources/articles-index.md)。部分早期文章文本取自 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)（未声明许可证）。
+1. **公众号「哥飞」**（主来源）：2019–2026-10-26 的公开文章。全部 862 篇文章索引（日期、标题、原文链接；585 篇有 mp.weixin 链接）见 [sources/articles-index.md](sources/articles-index.md)。部分早期文章文本取自 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)（未声明许可证）。
 2. **GitHub 公开仓库**：
 
 | 仓库 | 许可证 | 本仓库如何使用 |
@@ -44,7 +44,7 @@
 | [ifyour/gefei-seo-skill](https://github.com/ifyour/gefei-seo-skill) | MIT | 仅对照 |
 | [tens1x/gefei-perspective-skill](https://github.com/tens1x/gefei-perspective-skill) | MIT（README 声明） | 仅对照 |
 
-3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22）：只提炼哥飞本人发言要点，不含截图和完整记录。
+3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22）：哥飞本人发言的文字整理见 [sources/group-chat/20261004.md](sources/group-chat/20261004.md)、[sources/group-chat/20261022.md](sources/group-chat/20261022.md)；不含截图原图与其他群友发言。
 
 卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。
 
