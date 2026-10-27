@@ -1,110 +1,39 @@
 # 哥飞 Agent（非官方）
 
-把公众号「哥飞」公开分享的出海新词站 / SEO / GEO 方法论，蒸馏成 AI Agent 能直接调用的技能（Skills）。装好后，你用大白话提问，Agent 会按哥飞的方法回答，并注明出自哪篇文章或哪天的群聊。
+把公众号「哥飞」公开分享的出海新词站 / SEO / GEO 方法论，做成 AI 能直接用的技能。装好后用大白话提问，AI 按哥飞的方法回答，并注明出处。
 
-## 能力列表（13 张能力卡）
+## 安装只要一句话
 
-| 能力卡 | 解决什么 |
-|---|---|
-| `gefei-first-site-roadmap` ★ | 第一个出海站怎么规划、练手站做到什么程度、月入目标倒推 |
-| `gefei-keyword-discovery` ★ | 找新词、挖需求 |
-| `gefei-keyword-evaluation` ★ | 这个词能不能做、KGR/KD、商标风险 |
-| `gefei-intent-site-structure` ★ | 搜索意图、网站结构、URL 与内链 |
-| `gefei-onpage-launch` ★ | 站内 SEO、上线、提交收录 |
-| `gefei-gsc-diagnosis` ★ | 不收录、掉排名、GSC 提示怎么看 |
-| `gefei-monetization-pricing` ★ | 变现方式、订阅定价、有流量没订单 |
-| `gefei-backlinks-promotion` | 新站外链、社区推广 |
-| `gefei-programmatic-pages` | 程序化 SEO、日更数据页 |
-| `gefei-multilingual` | 多语言、小语种关键词 |
-| `gefei-site-portfolio` | 长期养站、有排名后横向扩展 |
-| `gefei-competitor-research` | 估算竞品收入、关联站长、域名历史 |
-| `gefei-chatgpt-traffic` | 从 ChatGPT 拿推荐流量（GEO） |
-
-★ = 独立 Skill（`gefei-*/` 目录）；其余在路由 Skill `gefei/references/capabilities/` 里，由 `gefei` 按意图自动加载。
-
-## 1. 选环境
-
-任何支持 `SKILL.md` 规范的 Agent 都能用。按你手上的工具选：
-
-| 环境 | 全局技能目录（所有项目可用） | 项目内目录 |
-|---|---|---|
-| Claude Code | `~/.claude/skills/` | `.claude/skills/` |
-| Cursor | `~/.cursor/skills/`（也读 `~/.agents/skills/`、`~/.claude/skills/`） | `.cursor/skills/` 或 `.agents/skills/` |
-| Codex CLI | `~/.agents/skills/`（旧版 `~/.codex/skills/` 也能读） | `.agents/skills/` |
-| 其他 Agent | 不认识 skills 目录时，直接让它读 `gefei/SKILL.md` | — |
-
-路径依据：[Claude Code Skills](https://docs.claude.com/en/docs/claude-code/skills)、[Cursor Agent Skills](https://cursor.com/docs/skills)、[Codex Skills](https://learn.chatgpt.com/docs/build-skills.md)。
-
-## 2. 安装
-
-一共 8 个技能目录：`gefei`（路由）+ 7 个 `gefei-*`。推荐 clone 到固定位置再软链接，以后 `git pull` 一下就更新。
-
-### Claude Code
-
-```bash
-git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent
-mkdir -p ~/.claude/skills
-for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" ~/.claude/skills/; done
-ls ~/.claude/skills | grep gefei
-```
-
-或者直接把这段话发给 Claude Code：
+打开 **Claude Code / Cursor / Codex**（或任何能执行命令的 AI Agent），粘贴：
 
 ```text
-帮我把 https://github.com/AdgaiWalker/gefei-agent 安装成全局 skill：clone 到 ~/gefei-agent，然后把仓库里的 gefei 目录和所有 gefei-* 目录软链接到 ~/.claude/skills/，装完列出已安装的 gefei 相关 skill。
+帮我安装 https://github.com/AdgaiWalker/gefei-agent
 ```
 
-### Cursor
+AI 会自己读下面的安装说明并装好。
 
-```bash
-git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent
-mkdir -p ~/.cursor/skills
-for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" ~/.cursor/skills/; done
-ls ~/.cursor/skills | grep gefei
-```
+> 网页版聊天工具（ChatGPT 网页、Claude 网页等）不能执行命令，装不了。
 
-在 Cursor 的 Agent 对话框里发：
+## 装好后这样用
 
 ```text
-帮我把 https://github.com/AdgaiWalker/gefei-agent 安装成 Cursor 全局 skill：clone 到 ~/gefei-agent，把 gefei 目录和所有 gefei-* 目录软链接到 ~/.cursor/skills/，装完列出来，并告诉我是否需要重开窗口。
+用哥飞的方法，帮我找 AI 图片方向最近的新词
 ```
-
-### Codex CLI
-
-```bash
-git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent
-mkdir -p ~/.agents/skills
-for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" ~/.agents/skills/; done
-ls ~/.agents/skills | grep gefei
-```
-
-在 Codex 里发：
-
 ```text
-帮我把 https://github.com/AdgaiWalker/gefei-agent 安装成 skill：clone 到 ~/gefei-agent，把 gefei 目录和所有 gefei-* 目录软链接到 ~/.agents/skills/，装完列出来。
+按哥飞的判词方法，看看 【xxx generator】 这个词能不能做
 ```
-
-> Windows 不方便软链接的话，把 `ln -sfn` 换成复制（`cp -r`），更新时重新复制一次。
-
-### 其他 Agent（没有 skills 机制）
-
 ```text
-请先读取 https://github.com/AdgaiWalker/gefei-agent 仓库里的 gefei/SKILL.md，以后我问出海建站、SEO、找词、变现的问题时，按它的路由表加载对应的能力卡来回答，并注明来源。
+我是新手，按哥飞的思路帮我规划第一个出海站
 ```
-
-## 3. 验证安装
-
-新开一个对话，发：
-
 ```text
-你现在有哪些哥飞相关的 skill？用一句话分别说明，并告诉我"哥飞的核心原则"有哪几条。
+我的站不收录、掉排名了，按哥飞的方法帮我排查
+```
+```text
+按哥飞的观点，新站怎么拿 ChatGPT 推荐流量？
 ```
 
-能列出 `gefei` 和 7 个 `gefei-*`，并说出"搜索量来自共识""一个关键词一个页面"之类的原则，就装好了。Claude Code / Cursor 里也可以输入 `/gefei` 手动调用。
-
-## 4. 使用：按阶段复制提示词
-
-把 `【】` 里的内容换成你自己的情况。
+<details>
+<summary>更多场景提示词（11 个阶段）</summary>
 
 **找新词 / 需求挖掘**
 ```text
@@ -161,42 +90,60 @@ ls ~/.agents/skills | grep gefei
 我的站有了第一批排名。按哥飞的方法判断下一步该做程序化页面、加多语言，还是横向再开新站？
 ```
 
-### 完整示例：新人从 0 到第一单
+</details>
 
-> **你**：我是新手，想按哥飞的方法做第一个出海站，从找词开始一步步带我。
-> **Agent**（first-site-roadmap）：先定目标：练手站目标是"上线 + 拿到第一批谷歌流量"，不求完美……第一步去找新词。
->
-> **你**：好，帮我找词，我对 AI 图片方向感兴趣。
-> **Agent**（keyword-discovery）：去 Google Trends 看近 7 天飙升词、看新站 sitemap……给你 5 个候选。
->
-> **你**：这 5 个哪个能做？
-> **Agent**（keyword-evaluation）：逐个算 KGR、看 KD 和前排……第 2 个前排都是内页、有趋势、无商标风险，推荐它。
->
-> **你**：网站该怎么搭？
-> **Agent**（intent-site-structure + onpage-launch）：一个关键词一个页面，首页就是工具本身……Title 这样写，上线后提交 GSC。
->
-> **你**：上线 3 天了，有展示没点击，也没 ChatGPT 流量。
-> **Agent**（gsc-diagnosis + chatgpt-traffic）：先看 Title 是否命中意图……工具页文案要直接回答用户会在 ChatGPT 问的问题（哥飞观点，部分为【推测】）。
->
-> **你**：每天 300 UV 了，怎么赚钱？
-> **Agent**（monetization-pricing）：先算账：客单价 40 美元、1% 付费率……先上订阅，定价参考……
->
-> **你**：出了第一单！下一步？
-> **Agent**（site-portfolio / first-site-roadmap）：复盘这套流程，再开下一个新词站，用练手站逐级跑通……
+<details>
+<summary>能力列表（13 张能力卡）</summary>
 
-## 5. 更新
 
-```bash
-cd ~/gefei-agent && git pull
-```
+| 能力卡 | 解决什么 |
+|---|---|
+| `gefei-first-site-roadmap` ★ | 第一个出海站怎么规划、练手站做到什么程度、月入目标倒推 |
+| `gefei-keyword-discovery` ★ | 找新词、挖需求 |
+| `gefei-keyword-evaluation` ★ | 这个词能不能做、KGR/KD、商标风险 |
+| `gefei-intent-site-structure` ★ | 搜索意图、网站结构、URL 与内链 |
+| `gefei-onpage-launch` ★ | 站内 SEO、上线、提交收录 |
+| `gefei-gsc-diagnosis` ★ | 不收录、掉排名、GSC 提示怎么看 |
+| `gefei-monetization-pricing` ★ | 变现方式、订阅定价、有流量没订单 |
+| `gefei-backlinks-promotion` | 新站外链、社区推广 |
+| `gefei-programmatic-pages` | 程序化 SEO、日更数据页 |
+| `gefei-multilingual` | 多语言、小语种关键词 |
+| `gefei-site-portfolio` | 长期养站、有排名后横向扩展 |
+| `gefei-competitor-research` | 估算竞品收入、关联站长、域名历史 |
+| `gefei-chatgpt-traffic` | 从 ChatGPT 拿推荐流量（GEO） |
 
-用软链接安装的，pull 完就生效；用复制安装的，要重新复制一次。也可以直接让 Agent 做：
+★ = 独立 Skill（`gefei-*/` 目录）；其余在路由 Skill `gefei/references/capabilities/` 里，由 `gefei` 按意图自动加载。
 
-```text
-帮我更新哥飞 skill：在 ~/gefei-agent 里 git pull，然后告诉我这次更新改了哪些能力卡、哥飞有没有改变说法。
-```
+</details>
 
-## 6. FAQ
+## 更新
+
+对 AI 说：`帮我更新哥飞 skill`（AI 会在 ~/gefei-agent 里 git pull）。
+
+## 给 AI 的安装说明（用户不用看）
+
+AI Agent 请按以下步骤执行：
+
+1. 判断你是哪个 Agent，确定技能目录：Claude Code → `~/.claude/skills`；Cursor → `~/.cursor/skills`；Codex CLI → `~/.agents/skills`；不确定时用 `~/.agents/skills`。
+2. 克隆（已存在则 `git -C ~/gefei-agent pull`）：
+   ```bash
+   git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent
+   ```
+3. 把 `gefei` 和所有 `gefei-*` 目录放进技能目录（`SKILLS` 换成第 1 步的路径）：
+   ```bash
+   SKILLS=~/.claude/skills; mkdir -p "$SKILLS"
+   for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" "$SKILLS/"; done
+   ```
+   Windows：不用软链接，把这 8 个目录复制（`Copy-Item -Recurse`）到 `%USERPROFILE%\.claude\skills` 等对应目录。
+4. 验证：`ls "$SKILLS" | grep gefei` 应列出 `gefei` 和 7 个 `gefei-*`（共 8 个），且 `$SKILLS/gefei/SKILL.md` 存在。
+5. 告诉用户"哥飞 Agent 已安装"（如需重开窗口请提醒），并给出 3 个示例：
+   - 用哥飞的方法，帮我找 AI 图片方向最近的新词
+   - 我是新手，按哥飞的思路帮我规划第一个出海站
+   - 按哥飞的观点，新站怎么拿 ChatGPT 推荐流量？
+
+用户说"更新哥飞 skill"时：`git -C ~/gefei-agent pull`；复制安装的需重新复制，并概述改了哪些能力卡。
+
+## 常见问题
 
 **【推测】是什么意思？**
 哥飞本人明确说"我猜""我怀疑""我的推断"的内容，标成【推测】，不要当成定论。
