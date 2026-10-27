@@ -12,7 +12,7 @@
 帮我安装 https://github.com/AdgaiWalker/gefei-agent
 ```
 
-AI 会自己读下面的安装说明并装好。
+AI 会自己把它装成 skill。
 
 > 网页版聊天工具（ChatGPT 网页、Claude 网页等）不能执行命令，装不了。
 
@@ -122,19 +122,6 @@ AI 会自己读下面的安装说明并装好。
 ## 更新
 
 对 AI 说：`帮我更新哥飞 skill`（AI 会在 ~/gefei-agent 里 git pull）。
-
-## 给 AI 的安装说明（用户不用看）
-
-1. 克隆（已存在就 pull）：
-   ```bash
-   git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent || git -C ~/gefei-agent pull
-   ```
-2. 把 `gefei` 和 `gefei-*` 链接到你的技能目录（Claude Code `~/.claude/skills`，Cursor `~/.cursor/skills`，Codex `~/.agents/skills`；Windows 改为复制）：
-   ```bash
-   SKILLS=~/.claude/skills; mkdir -p "$SKILLS"
-   for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" "$SKILLS/"; done
-   ```
-3. 告诉用户"已安装"，给一个示例：`用哥飞的方法，帮我找 AI 图片方向最近的新词`。
 
 ## 常见问题
 
