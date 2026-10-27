@@ -1,0 +1,61 @@
+{
+  "generated_by": "cangjie-tools v2.5.0",
+  "bundle_id": "bundle.gefei",
+  "router_entrypoint": "gefei",
+  "entrypoint_count": 8,
+  "capability_count": 13,
+  "destinations": {
+    "cap.gefei.first-site-roadmap": {
+      "promoted_to": "gefei-first-site-roadmap",
+      "router_view": "gefei/references/capabilities/gefei-first-site-roadmap.md"
+    },
+    "cap.gefei.keyword-discovery": {
+      "promoted_to": "gefei-keyword-discovery",
+      "router_view": "gefei/references/capabilities/gefei-keyword-discovery.md"
+    },
+    "cap.gefei.keyword-evaluation": {
+      "promoted_to": "gefei-keyword-evaluation",
+      "router_view": "gefei/references/capabilities/gefei-keyword-evaluation.md"
+    },
+    "cap.gefei.intent-site-structure": {
+      "promoted_to": "gefei-intent-site-structure",
+      "router_view": "gefei/references/capabilities/gefei-intent-site-structure.md"
+    },
+    "cap.gefei.onpage-launch": {
+      "promoted_to": "gefei-onpage-launch",
+      "router_view": "gefei/references/capabilities/gefei-onpage-launch.md"
+    },
+    "cap.gefei.gsc-diagnosis": {
+      "promoted_to": "gefei-gsc-diagnosis",
+      "router_view": "gefei/references/capabilities/gefei-gsc-diagnosis.md"
+    },
+    "cap.gefei.monetization-pricing": {
+      "promoted_to": "gefei-monetization-pricing",
+      "router_view": "gefei/references/capabilities/gefei-monetization-pricing.md"
+    },
+    "cap.gefei.backlinks-promotion": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-backlinks-promotion.md"
+    },
+    "cap.gefei.programmatic-pages": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-programmatic-pages.md"
+    },
+    "cap.gefei.multilingual": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-multilingual.md"
+    },
+    "cap.gefei.site-portfolio": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-site-portfolio.md"
+    },
+    "cap.gefei.competitor-research": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-competitor-research.md"
+    },
+    "cap.gefei.chatgpt-traffic": {
+      "served_by": "gefei",
+      "card": "gefei/references/capabilities/gefei-chatgpt-traffic.md"
+    }
+  }
+}

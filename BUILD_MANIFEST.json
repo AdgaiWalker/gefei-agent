@@ -1,0 +1,49 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "capability-destinations.json": "7e8d568543d9f6620f23e1b04c2f07ad7c22ded06d71febfca38999358f60137",
+    "gefei/SKILL.md": "d4d95759fc6d24023967b734f7bde4713b313993e9f7578803dc454f2346e7f9",
+    "gefei/references/capabilities/gefei-backlinks-promotion.md": "c163ac93708a4bf42e66cfb9957dd7ac30a362449d52a3da2831e0eb0488c1fb",
+    "gefei/references/capabilities/gefei-first-site-roadmap.md": "229911767cc894fa0012bf339eec66f849336d1f88e4130e6b56a94f45372ee7",
+    "gefei/references/capabilities/gefei-gsc-diagnosis.md": "334cb08c0e5643851bb82c5b004735eefadeb27003411a9082b60065e7c2408f",
+    "gefei/references/capabilities/gefei-intent-site-structure.md": "cba962a07b3e99c43ffd37673ddbac927eacbda8e77053a48efc2f3315c56a67",
+    "gefei/references/capabilities/gefei-keyword-discovery.md": "9791b521fda982c3762ad8008084e623bd777719674f8f009e46bb7d5672c676",
+    "gefei/references/capabilities/gefei-keyword-evaluation.md": "ae66e3ae5d2f24fd518ad28602a70e2d1131a533b9dcf835c0db261c3d630207",
+    "gefei/references/capabilities/gefei-monetization-pricing.md": "3e5a7b904589394aff9c0745c44b62df2319b18cd04036c3dd904699661cfdc0",
+    "gefei/references/capabilities/gefei-multilingual.md": "05f4b9530f4505b5c0ff4485115e1c353a0d485559c6b61849d59995a14098d8",
+    "gefei/references/capabilities/gefei-onpage-launch.md": "91cc5b5e3d7522b6689718ff7231dfb9ce615c78f10c667695ab3cce0653eb29",
+    "gefei/references/capabilities/gefei-programmatic-pages.md": "d076a7c7960d7d9469ba1709c8640a2fbee01dab491e03efb974ef60d0241736",
+    "gefei/references/capabilities/gefei-site-portfolio.md": "92ca2ca17be4aaeeb2fa3b2c71fe0939931fc8bfb8f3472da969d4aba0fca775",
+    "gefei/references/capability-index.md": "34328ab814c0d528aebedcc0b9a4c4e1dc3db6b1d987e64d77e94aaf715d6975",
+    "gefei/references/cheatsheet.md": "67ba133983a88db87f19b71bb40d9f6460fd25cad556011377eccd22640d8625",
+    "gefei/references/glossary.md": "256b41ed52a65f24bb8262dcef601b969f89180266e67d67fc9243cd8bd38326",
+    "gefei/references/overview.md": "b2eddcff6503352a86eab38ddcf26476cdc45d4b3ac52e02144025ba61cbe7b7",
+    "gefei-first-site-roadmap/SKILL.md": "828d6922634ff0c16115bacc1a947dae78884010db51e97a776607c957975c1a",
+    "gefei-gsc-diagnosis/SKILL.md": "c7a50db5bac0048d6ef8e63c32c47bcf80b40caba64ffa083142525cf03d1648",
+    "gefei-intent-site-structure/SKILL.md": "8cbac791173e11f3d7728c1f9556971928eb25d2b9da70374dd2f3cf95b1b254",
+    "gefei-keyword-discovery/SKILL.md": "afd67492e01e0ff04868e612294b2ab85c98e1213c154fc33f008b3c0eb1b561",
+    "gefei-keyword-evaluation/SKILL.md": "b90d2829d8fa70a5af7094eed2013dbc5e13f83ebe164e8edca207b2bda80db1",
+    "gefei-monetization-pricing/SKILL.md": "214e745b74705127c80332bdfda0c3884bc354a122c3398be01e33592021e613",
+    "gefei-onpage-launch/SKILL.md": "502c99b1b643ff2f845e79fd471e97b43c7abf8c93cf2f03dfd3a3168628e985"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.gefei",
+  "bundle_sha256": "0638af43f89c3a1ce99480c40515151d4fdbeb21b45924e0096561985e6dd725",
+  "variant": "pack",
+  "run_id": "run-20261027-112120-b53357",
+  "decision": {
+    "schema_version": 1,
+    "requested": "pack",
+    "selected": "pack",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 13,
+    "reasons": [
+      "用户显式选择 pack，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "single（1 个入口 + 11 张内部能力卡）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
