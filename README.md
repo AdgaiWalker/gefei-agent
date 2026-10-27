@@ -34,6 +34,14 @@ AI 会自己读下面的安装说明并装好。
 按哥飞的观点，新站怎么拿 ChatGPT 推荐流量？
 ```
 
+## 确认装好了
+
+```text
+你现在有哪些哥飞相关的 skill？用一句话分别说明，并告诉我「哥飞的核心原则」有哪几条。
+```
+
+能列出 `gefei` 和 7 个 `gefei-*`（共 8 个），并说出「搜索量来自共识」「一个关键词一个页面」之类的原则，就装好了。
+
 <details>
 <summary>更多场景提示词（11 个阶段）</summary>
 
@@ -183,13 +191,13 @@ AI Agent 请按以下步骤执行：
 | [ifyour/gefei-seo-skill](https://github.com/ifyour/gefei-seo-skill) | MIT | 仅对照 |
 | [tens1x/gefei-perspective-skill](https://github.com/tens1x/gefei-perspective-skill) | MIT（README 声明） | 仅对照 |
 
-3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22）：哥飞本人发言的文字整理见 [sources/group-chat/20261004.md](sources/group-chat/20261004.md)、[sources/group-chat/20261022.md](sources/group-chat/20261022.md)；不含截图原图与其他群友发言。
+3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22，及一条无日期）：哥飞本人发言的文字整理见 [sources/group-chat/20261004.md](sources/group-chat/20261004.md)、[sources/group-chat/20261022.md](sources/group-chat/20261022.md)；与刘小排的分工定位见 [sources/group-chat/刘小排分工.md](sources/group-chat/刘小排分工.md)。不含截图原图与其他群友发言。
 
 卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。
 
 ## 许可证
 
-本仓库的整理与提炼内容以 [CC BY-NC 4.0](LICENSE) 发布（署名-非商业性使用）。被引用观点的原始著作权归哥飞及各原作者所有。
+本仓库的整理与提炼内容以 [CC BY-NC 4.0](LICENSE) 发布（署名-非商业性使用：可转载、修改，不可商用）。哥飞原文及各原作者的著作权不变。
 
 ## 删除请求
 
