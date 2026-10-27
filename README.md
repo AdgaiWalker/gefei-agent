@@ -34,13 +34,6 @@ AI 会自己读下面的安装说明并装好。
 按哥飞的观点，新站怎么拿 ChatGPT 推荐流量？
 ```
 
-## 确认装好了
-
-```text
-你现在有哪些哥飞相关的 skill？用一句话分别说明，并告诉我「哥飞的核心原则」有哪几条。
-```
-
-能列出 `gefei` 和 7 个 `gefei-*`（共 8 个），并说出「搜索量来自共识」「一个关键词一个页面」之类的原则，就装好了。
 
 <details>
 <summary>更多场景提示词（11 个阶段）</summary>
@@ -132,26 +125,16 @@ AI 会自己读下面的安装说明并装好。
 
 ## 给 AI 的安装说明（用户不用看）
 
-AI Agent 请按以下步骤执行：
-
-1. 判断你是哪个 Agent，确定技能目录：Claude Code → `~/.claude/skills`；Cursor → `~/.cursor/skills`；Codex CLI → `~/.agents/skills`；不确定时用 `~/.agents/skills`。
-2. 克隆（已存在则 `git -C ~/gefei-agent pull`）：
+1. 克隆（已存在就 pull）：
    ```bash
-   git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent
+   git clone https://github.com/AdgaiWalker/gefei-agent ~/gefei-agent || git -C ~/gefei-agent pull
    ```
-3. 把 `gefei` 和所有 `gefei-*` 目录放进技能目录（`SKILLS` 换成第 1 步的路径）：
+2. 把 `gefei` 和 `gefei-*` 链接到你的技能目录（Claude Code `~/.claude/skills`，Cursor `~/.cursor/skills`，Codex `~/.agents/skills`；Windows 改为复制）：
    ```bash
    SKILLS=~/.claude/skills; mkdir -p "$SKILLS"
    for d in ~/gefei-agent/gefei ~/gefei-agent/gefei-*/; do ln -sfn "${d%/}" "$SKILLS/"; done
    ```
-   Windows：不用软链接，把这 8 个目录复制（`Copy-Item -Recurse`）到 `%USERPROFILE%\.claude\skills` 等对应目录。
-4. 验证：`ls "$SKILLS" | grep gefei` 应列出 `gefei` 和 7 个 `gefei-*`（共 8 个），且 `$SKILLS/gefei/SKILL.md` 存在。
-5. 告诉用户"哥飞 Agent 已安装"（如需重开窗口请提醒），并给出 3 个示例：
-   - 用哥飞的方法，帮我找 AI 图片方向最近的新词
-   - 我是新手，按哥飞的思路帮我规划第一个出海站
-   - 按哥飞的观点，新站怎么拿 ChatGPT 推荐流量？
-
-用户说"更新哥飞 skill"时：`git -C ~/gefei-agent pull`；复制安装的需重新复制，并概述改了哪些能力卡。
+3. 告诉用户"已安装"，给一个示例：`用哥飞的方法，帮我找 AI 图片方向最近的新词`。
 
 ## 常见问题
 
