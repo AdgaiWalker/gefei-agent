@@ -14,6 +14,8 @@ metadata:
 
 # 出海网站变现与定价：先算账，再大胆收费
 
+> **数据时效规则（2026-10-28 加，采纳 X 用户 @growaiskills 的反馈）**：本卡的方法可以复用，但引用原文里的搜索量、KD/竞争、CPC、价格、收入、外链数等都是**当时的历史数据**，出处旁已标原文发布日期。下结论前要按当前重查：近期搜索量（Google Trends / Ads 关键词规划师）、当前搜索结果页前 10、当前竞品价格；必要时注明适用条件（时间、市场/语种、站点类型）。数据对不上时，以重查结果为准，方法不变。
+
 ## R — 原文 (Reading)
 
 > 出海AI工具，一定要大胆上付费，上订阅，上年付订阅！
@@ -39,14 +41,14 @@ metadata:
 5. **有流量没订单，先修漏斗**：落地页（首屏是否说清价值）→ 登录门槛 → 免费额度是否太多/太少 → 支付流程 → 价格档；看流量国家结构（低价值国家几乎零付费）。不要用批量上新站来掩盖未知变量。
 
 ### 补充（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，2026-10-27 整理）
-- **提高 AdSense 通过率（哥飞对谷歌活动的笔记，2025-06-11，来源页标 2025-10-20）**：一句话总结是"让你做的网站像网站"。流量来源要干净，要真的给用户提供好内容和好体验，而不是随便做个网页就变现。笔记也记录了谷歌方确认新词玩法和"一词一页"可行。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/39-80twd3g35l.md
+- **提高 AdSense 通过率（哥飞对谷歌活动的笔记，2025-06-11，来源页标 2025-10-20）**：一句话总结是"让你做的网站像网站"。流量来源要干净，要真的给用户提供好内容和好体验，而不是随便做个网页就变现。笔记也记录了谷歌方确认新词玩法和"一词一页"可行。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/39-80twd3g35l.md（原文发布 2025-10-20）
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **早期先只靠广告（案例 2024-12-14 感谢信站）**：哥飞实践下来的结论是，目标是赚到第 1、第 100、第 10000 美元时，完全可以只靠广告，初期不必先花时间注册海外公司、申请收款平台。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/30-t5g81oxxce.md
-- **广告收入小就关掉广告（案例 2024-08-07）**：describepicture.org 每月广告费约 200 美元，哥飞建议关掉广告，把体验做好、提高付费转化。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/23-sqfjmrroio.md
-- **转化小细节（2025-09-08）**：多步表单在最后一步才弹出登录框，并提示"Your choices will be saved"，可以提升登录转化。Wplace 的思路是免费用户能玩，付费用户能"显摆"（解锁颜色）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md
-- **投自己的品牌词（案例 2024-03-14，pagepilot.ai）**：一是承接那些第一次没付费、但记住了品牌名的回头用户，二是防止别人低价投你的品牌词截流。这是哥飞的推测。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/16-nz5kw1eht2.md
-- **群友出单经验（非哥飞本人，2025 群聊征集）**：有人"一开始送免费一直不出单，改成必须付费后天天出单"；有人把付费墙做成页面内弹窗而不是跳转；有人出单靠买 Toolify 导航带来约 30% 流量。只能作为参考。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/42-naadq5ctx7.md
+- **早期先只靠广告（案例 2024-12-14 感谢信站）**：哥飞实践下来的结论是，目标是赚到第 1、第 100、第 10000 美元时，完全可以只靠广告，初期不必先花时间注册海外公司、申请收款平台。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/30-t5g81oxxce.md（原文发布 2025-10-29）
+- **广告收入小就关掉广告（案例 2024-08-07）**：describepicture.org 每月广告费约 200 美元，哥飞建议关掉广告，把体验做好、提高付费转化。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/23-sqfjmrroio.md（原文发布 2025-11-04）
+- **转化小细节（2025-09-08）**：多步表单在最后一步才弹出登录框，并提示"Your choices will be saved"，可以提升登录转化。Wplace 的思路是免费用户能玩，付费用户能"显摆"（解锁颜色）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md（原文发布 2025-10-14）
+- **投自己的品牌词（案例 2024-03-14，pagepilot.ai）**：一是承接那些第一次没付费、但记住了品牌名的回头用户，二是防止别人低价投你的品牌词截流。这是哥飞的推测。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/16-nz5kw1eht2.md（原文发布 2025-11-12）
+- **群友出单经验（非哥飞本人，2025 群聊征集）**：有人"一开始送免费一直不出单，改成必须付费后天天出单"；有人把付费墙做成页面内弹窗而不是跳转；有人出单靠买 Toolify 导航带来约 30% 流量。只能作为参考。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/42-naadq5ctx7.md（原文发布 2025-10-15）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **按收入目标倒推流量（2026-10-22 再拆）**：月入 1 万美元 ÷ 客单价 40 美元 = 250 单，约每天 8–9 单。按 1% 付费率算，每天约需 1000 个新访客。来源：公开流传的哥飞群聊截图 2026-10-22

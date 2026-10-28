@@ -18,9 +18,9 @@
 - 作者观察到"饱和式建站"（同需求多个相似域名同时占位）的现象，但有撞名/仿冒判定风险，不作为推荐。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **饱和式建站（案例 2023-10-23，retrobowl）**：同一个人用多个域名做同一个关键词，同时占领首页（可以通过 AdSense 发布商 ID 看出是同一人）。但代码和文案要做得不一样，否则会被判成重复网站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/12-oeohjryji6.md
-- **长期养站的回报**：capitalizemytitle.com 2012 年上线，年访问量 5219 万，几乎没有开发成本，"这就是为什么养网站能够防老"；arstechnica 做了二十多年，持续发文章"就可以养到老"。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/28-08zfe1fbve.md、同仓库路径 judgeKey/14-0qbjbl6dvd.md
-- **不更新就会被后来者超过（案例 liveworksheets）**：同类站里，域名越老的流量反而越小。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/31-p9qtw6c5z0.md
+- **饱和式建站（案例 2023-10-23，retrobowl）**：同一个人用多个域名做同一个关键词，同时占领首页（可以通过 AdSense 发布商 ID 看出是同一人）。但代码和文案要做得不一样，否则会被判成重复网站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/12-oeohjryji6.md（原文发布 2025-11-26）
+- **长期养站的回报**：capitalizemytitle.com 2012 年上线，年访问量 5219 万，几乎没有开发成本，"这就是为什么养网站能够防老"；arstechnica 做了二十多年，持续发文章"就可以养到老"。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/28-08zfe1fbve.md（原文发布 2025-10-29）、同仓库路径 judgeKey/14-0qbjbl6dvd.md（原文发布 2025-11-21）
+- **不更新就会被后来者超过（案例 liveworksheets）**：同类站里，域名越老的流量反而越小。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/31-p9qtw6c5z0.md（原文发布 2025-10-28）
 
 ## A1 — 原文中的应用 (Past Application)
 

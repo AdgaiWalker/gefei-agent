@@ -2,6 +2,8 @@
 
 # 找新词与找需求：从共识里挖有人搜、少人做的词
 
+> **数据时效规则（2026-10-28 加，采纳 X 用户 @growaiskills 的反馈）**：本卡的方法可以复用，但引用原文里的搜索量、KD/竞争、CPC、价格、收入、外链数等都是**当时的历史数据**，出处旁已标原文发布日期。下结论前要按当前重查：近期搜索量（Google Trends / Ads 关键词规划师）、当前搜索结果页前 10、当前竞品价格；必要时注明适用条件（时间、市场/语种、站点类型）。数据对不上时，以重查结果为准，方法不变。
+
 ## R — 原文 (Reading)
 
 > 新词竞争度低，参与竞争的网站少，大家都在同一条起跑线上，所以你只要……做到比你的竞争对手更好，谷歌就会把你排到前面。
@@ -28,15 +30,15 @@
 - 动手前三查：需求是否明确？现有结果是否已经满足？我能否做得更好/更快？
 
 ### 补充（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，2026-10-27 整理）
-- **谷歌趋势找新词（哥飞小课堂 2024-08-13）**：判新词时依次看 30 天、90 天、12 个月、5 年曲线，曲线起点就是该词的出现日期，30 天内出现最好。扩词时输入词根，选全球、最近 7 天，看"相关查询"，也留意拼写错误词（ChatTTS→ChaTTS）；用产品名或品类名递归扩（AI Music→udio→suno）；可以接 Google Trends API 自动化；在"网站↔词↔更多词↔更多网站"之间循环。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/06-guge-qushi-zhao-xinci.md
-- **根词列表维护（群友"睡觉想飞"整理哥飞"8 种找词方式"，2025-04-13，转述）**：把可能的根词存成列表，按 7 天或 30 天周期去 Trends 查，能扩出新词的保留，否则淘汰。已在公众号公开、域名已被大量注册的词不建议做。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xuqiuwajue/19-xiaobai-zenme-zhaoci.md（"8 种找词方式"的原文 web.cafe/tutorial/detail/lmlpg7ae96 未见于任何仓库）
-- **时间分配（群友卡诺转述哥飞，2024-12-27）**：约 40% 时间挖需求、20% 开发、40% 推广做外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xuqiuwajue/18-manyou-zhao-ci-sop.md
+- **谷歌趋势找新词（哥飞小课堂 2024-08-13）**：判新词时依次看 30 天、90 天、12 个月、5 年曲线，曲线起点就是该词的出现日期，30 天内出现最好。扩词时输入词根，选全球、最近 7 天，看"相关查询"，也留意拼写错误词（ChatTTS→ChaTTS）；用产品名或品类名递归扩（AI Music→udio→suno）；可以接 Google Trends API 自动化；在"网站↔词↔更多词↔更多网站"之间循环。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/06-guge-qushi-zhao-xinci.md（原文发布 2024-08-13）
+- **根词列表维护（群友"睡觉想飞"整理哥飞"8 种找词方式"，2025-04-13，转述）**：把可能的根词存成列表，按 7 天或 30 天周期去 Trends 查，能扩出新词的保留，否则淘汰。已在公众号公开、域名已被大量注册的词不建议做。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xuqiuwajue/19-xiaobai-zenme-zhaoci.md（原文发布 2025-04-13）（"8 种找词方式"的原文 web.cafe/tutorial/detail/lmlpg7ae96 未见于任何仓库）
+- **时间分配（群友卡诺转述哥飞，2024-12-27）**：约 40% 时间挖需求、20% 开发、40% 推广做外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xuqiuwajue/18-manyou-zhao-ci-sop.md（原文发布 2024-12-27）
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **新词玩法的三个层级（小课堂 2025-08-10）**：初级是跟进，别人上什么页面你就上什么；中级是预测，提前注册可能会火的词并占坑；高级是创造，自己造出新词再拿走大部分流量（higgsfield 的 Earth Zoom Out）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/54-i33t7dyhxb.md
-- **新词由社交媒体造（案例 2024-12-08）**：关注 TikTok 等社交媒体可以发现新词。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/28-08zfe1fbve.md
-- **从大站关键词和改版史里找词（案例 2025-01-14）**：研究有流量网站的关键词列表；从任意关键词的搜索结果里，都可能挖到值得研究的网站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md
-- **挖需求方法汇总（小课堂《再聊挖掘需求的方法》）**：① 词根扩展（51 个词根 × Semrush Keyword Magic Tool 筛选，再用 Trends 和 Ads 规划师核实搜索量）；② 查 SEO 大站的流量关键词，重点看"别人只靠内页就拿下"的词，以及 Similarweb 里"新获得点击"的页面；③ 谷歌下拉词；④ 把前三种组合起来循环；⑤ 看有人持续在投广告的关键词（qr code generator 案例，"别人一直投广告，说明一直在赚钱"）；⑥ 从变现角度找正在赚钱的网站（见 gefei 路由下的竞品与收入侦察卡）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/08-zailiao-wajue-xuqiu-fangfa.md
+- **新词玩法的三个层级（小课堂 2025-08-10）**：初级是跟进，别人上什么页面你就上什么；中级是预测，提前注册可能会火的词并占坑；高级是创造，自己造出新词再拿走大部分流量（higgsfield 的 Earth Zoom Out）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/54-i33t7dyhxb.md（原文发布 2025-10-10）
+- **新词由社交媒体造（案例 2024-12-08）**：关注 TikTok 等社交媒体可以发现新词。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/28-08zfe1fbve.md（原文发布 2025-10-29）
+- **从大站关键词和改版史里找词（案例 2025-01-14）**：研究有流量网站的关键词列表；从任意关键词的搜索结果里，都可能挖到值得研究的网站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md（原文发布 2025-10-11）
+- **挖需求方法汇总（小课堂《再聊挖掘需求的方法》）**：① 词根扩展（51 个词根 × Semrush Keyword Magic Tool 筛选，再用 Trends 和 Ads 规划师核实搜索量）；② 查 SEO 大站的流量关键词，重点看"别人只靠内页就拿下"的词，以及 Similarweb 里"新获得点击"的页面；③ 谷歌下拉词；④ 把前三种组合起来循环；⑤ 看有人持续在投广告的关键词（qr code generator 案例，"别人一直投广告，说明一直在赚钱"）；⑥ 从变现角度找正在赚钱的网站（见 gefei 路由下的竞品与收入侦察卡）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/08-zailiao-wajue-xuqiu-fangfa.md（原文发布 2024-08-13）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **新词机会的量级**：谷歌官方口径是每年 5 万亿次搜索，其中每天有 15% 的搜索是全新的。他保守按其中 10% 是全新关键词来算：50000 亿 × 0.15 × 0.1 = 750 亿次每年，约合每天 2 亿次新词搜索。社群从 2023 年 11 月起，每个月的新词新站比赛都有网站拿到流量，他用这一点反驳"新词新站不长久"的说法。来源：公开流传的哥飞群聊截图 2026-10-22

@@ -20,12 +20,12 @@
 - **内链**：导航、首页"最新/热门"列表、相关页面、面包屑；带 title 的锚文本；新页面挂到首页以便快速收录与传递权重。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **"哥飞网站权重"公式（小课堂）**：GSC 里拿到曝光和点击的网页数 ÷ GSC 发现的网页数 × 10000‱。他暂定的及格线是 100‱（"先拍脑袋说一个数"），低于这个值就停止生成新页面，先处理老页面。因为 GSC 最多只能导出 1000 个网页，这个公式适合页面数在 1 万以内的阶段，用来在早期试探内容策略。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/07-neilian-neiye-neirong-gongjuzhan.md
-- **内容型工具站的修正做法（同上）**：不再给用户生成的每条内容单独建页。改为先挖出有搜索量的关键词，每个关键词做一个页面，把相关的用户内容聚合进去（至少 3 条，5 到 10 条更好）。用户内容页设成 noindex，并在 robots.txt 里禁止抓取。页面之间按树状层级组织，配面包屑导航、全站顶部导航，并列出同级和下级页面。来源：同上；github hlwhut225/gefei-knowledge-base/other/03-jingpin-gongjuzhan-silu.md（"白名单标签聚合模式"）
-- **精品工具页的五个公式（other/03）**：① 一个关键词 = 一个页面；② 工具页 + 落地页 + 结果展示页 = 精品工具页；③ 精品工具页 + 低竞争关键词 = 排名和曝光；④ 前后台统一（同一个 URL，登录前展示图文介绍，登录后进入沉浸式创作，Pollo.ai 的做法）+ 用户行为数据 = 行为数据集中在一个页面上；⑤ 排名曝光 + 优秀的行为数据 = 搜索结果前几名。他还明确提醒："新站搞海量页面必死"，海量页面只适合上线半年以上、已有一定权重的站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/03-jingpin-gongjuzhan-silu.md
-- **两类网站（案例 2025-03-11，emojicombos.com）**：一类是用关键词注册域名、靠首页去和别人的内页竞争，更容易做；另一类靠大量内页吃长尾词流量（emojicombos 有 2.9 万个页面拿到流量）。超长页面建议等网站有了权重再做。页面要持续更新，谷歌不喜欢拿到排名后就长期不动的页面。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/48-9f589mpe04.md
-- **不断上内页、做内链、加外链（案例 2025-09-26 EverNote、2025-09-08 Canva）**：EverNote 加了几十个 AI 转录类工具页，流量回升。Canva 的 /sizes/ 系列用结构化表格数据为每个尺寸词单独做页面，背后是一条完整的页面生产线。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/43-q4nr2vw1wu.md、同仓库路径 judgeKey/44-xlft7pezkb.md
-- **工具页必须配文字（案例 2024-03-28，ColorDesigner.io）**：爬虫不会使用工具，只能靠文字理解页面。文字分两部分：工具介绍，以及工具产出的内容。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/17-h99selgfq5.md
+- **"哥飞网站权重"公式（小课堂）**：GSC 里拿到曝光和点击的网页数 ÷ GSC 发现的网页数 × 10000‱。他暂定的及格线是 100‱（"先拍脑袋说一个数"），低于这个值就停止生成新页面，先处理老页面。因为 GSC 最多只能导出 1000 个网页，这个公式适合页面数在 1 万以内的阶段，用来在早期试探内容策略。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/07-neilian-neiye-neirong-gongjuzhan.md（原文发布 2024-08-13）
+- **内容型工具站的修正做法（同上）**：不再给用户生成的每条内容单独建页。改为先挖出有搜索量的关键词，每个关键词做一个页面，把相关的用户内容聚合进去（至少 3 条，5 到 10 条更好）。用户内容页设成 noindex，并在 robots.txt 里禁止抓取。页面之间按树状层级组织，配面包屑导航、全站顶部导航，并列出同级和下级页面。来源：同上；github hlwhut225/gefei-knowledge-base/other/03-jingpin-gongjuzhan-silu.md（原文发布 2025-03-07）（"白名单标签聚合模式"）
+- **精品工具页的五个公式（other/03）**：① 一个关键词 = 一个页面；② 工具页 + 落地页 + 结果展示页 = 精品工具页；③ 精品工具页 + 低竞争关键词 = 排名和曝光；④ 前后台统一（同一个 URL，登录前展示图文介绍，登录后进入沉浸式创作，Pollo.ai 的做法）+ 用户行为数据 = 行为数据集中在一个页面上；⑤ 排名曝光 + 优秀的行为数据 = 搜索结果前几名。他还明确提醒："新站搞海量页面必死"，海量页面只适合上线半年以上、已有一定权重的站。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/03-jingpin-gongjuzhan-silu.md（原文发布 2025-03-07）
+- **两类网站（案例 2025-03-11，emojicombos.com）**：一类是用关键词注册域名、靠首页去和别人的内页竞争，更容易做；另一类靠大量内页吃长尾词流量（emojicombos 有 2.9 万个页面拿到流量）。超长页面建议等网站有了权重再做。页面要持续更新，谷歌不喜欢拿到排名后就长期不动的页面。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/48-9f589mpe04.md（原文发布 2025-10-11）
+- **不断上内页、做内链、加外链（案例 2025-09-26 EverNote、2025-09-08 Canva）**：EverNote 加了几十个 AI 转录类工具页，流量回升。Canva 的 /sizes/ 系列用结构化表格数据为每个尺寸词单独做页面，背后是一条完整的页面生产线。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/43-q4nr2vw1wu.md（原文发布 2025-10-14）、同仓库路径 judgeKey/44-xlft7pezkb.md（原文发布 2025-10-14）
+- **工具页必须配文字（案例 2024-03-28，ColorDesigner.io）**：爬虫不会使用工具，只能靠文字理解页面。文字分两部分：工具介绍，以及工具产出的内容。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/17-h99selgfq5.md（原文发布 2025-11-11）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **工具页文案对 ChatGPT 同样关键**："大模型是最好骗的，你说你是什么，大模型就相信了。"所以工具页上那段面向关键词、围绕核心主题写的文案，对 ChatGPT 同样有效。做法是先找出用户可能在 ChatGPT 里问的问题，再让 AI 写出能回答这个问题的网页文案。关键词密度仍然要看，目的是让整个页面聚焦主题、不跑偏。来源：公开流传的哥飞群聊截图 2026-10-04

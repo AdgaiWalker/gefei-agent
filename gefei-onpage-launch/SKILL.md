@@ -35,15 +35,15 @@ metadata:
 **新站放量节奏**：判断是否"新站"（域名/上线 <6–12 月、引用域名 <100、DR<40、前 20 排名页面 <100）。新站先手工做精品页；10 个页面收录且有点击后加到 20 页，观察 GSC 再放量。
 
 ### 补充（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，2026-10-27 整理）
-- **Title/Description 生成流程（哥飞，web.cafe 2024-07-29）**：不要直接让 GPT 写；先在 Similarweb/Semrush 关键词工具导出"词组匹配+相关关键词"，合并去重、按搜索量降序取前 100 个（只留词）喂给 GPT；多轮迭代并自己改写后让 GPT 润色；Title 一般 <60 字符，核心词突出，可在开头放吸引词（如 "AI"），带上次核心词，品牌名放最后；不用普通人不会搜的专业词，从关键词列表里换词。示例：`AI Chinese Names Generator & Meaning Explainer | ChinsesNames.ai`。Description 在 Title 定稿后生成，检查是否漏了核心词。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xinshourumen/02-如何用GPT生成SEO友好的网页Title和Description.md
-- **上线后收录与出词时间线（哥飞小课堂 2025-01-20）**：文案没问题一般 24 小时内收录；提交到谷歌爬虫常来的网站并配合外链，最快约 2 小时收录；收录后 24–48 小时 GSC 应有曝光。48 小时无动静按序排查：内容长度不够、关键词分布不合理、TDH 没覆盖关键词、核心词密度不够、页面为前端渲染。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/01-shangzhan-zhihou-yaozuoshenme.md
-- **落地页版本（哥飞小课堂 2025-04-08）**：V1.0 = 工具页 + 博客；V1.5 = 工具页 + 落地页 + 博客；V2.0（社群现用）= 精品工具页面 = 工具功能 + 落地页图文 + 工具生成结果列表。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/02-gongju-luodiye-sheji.md
+- **Title/Description 生成流程（哥飞，web.cafe 2024-07-29）**：不要直接让 GPT 写；先在 Similarweb/Semrush 关键词工具导出"词组匹配+相关关键词"，合并去重、按搜索量降序取前 100 个（只留词）喂给 GPT；多轮迭代并自己改写后让 GPT 润色；Title 一般 <60 字符，核心词突出，可在开头放吸引词（如 "AI"），带上次核心词，品牌名放最后；不用普通人不会搜的专业词，从关键词列表里换词。示例：`AI Chinese Names Generator & Meaning Explainer | ChinsesNames.ai`。Description 在 Title 定稿后生成，检查是否漏了核心词。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 xinshourumen/02-如何用GPT生成SEO友好的网页Title和Description.md（原文发布 2024-07-29）
+- **上线后收录与出词时间线（哥飞小课堂 2025-01-20）**：文案没问题一般 24 小时内收录；提交到谷歌爬虫常来的网站并配合外链，最快约 2 小时收录；收录后 24–48 小时 GSC 应有曝光。48 小时无动静按序排查：内容长度不够、关键词分布不合理、TDH 没覆盖关键词、核心词密度不够、页面为前端渲染。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/01-shangzhan-zhihou-yaozuoshenme.md（原文发布 2025-01-20）
+- **落地页版本（哥飞小课堂 2025-04-08）**：V1.0 = 工具页 + 博客；V1.5 = 工具页 + 落地页 + 博客；V2.0（社群现用）= 精品工具页面 = 工具功能 + 落地页图文 + 工具生成结果列表。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/02-gongju-luodiye-sheji.md（原文发布 2025-04-08）
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **获取 Bing 流量（哥飞群分享 2025-01-25，2025-03 回顾时每天两三百点击）**：① 提交到 Bing 站长后台；② 加 Sitemap；③ 按后台扫描结果逐项修复（缺 Description、缺 H1、Title 过长）；④ 支持并主动提交 IndexNow；⑤ 在 Cloudflare 开启主动推送。他的推测是：谷歌爬虫够强，不依赖 Sitemap；Bing 和国内搜索引擎为了省钱，更依赖站长提交。还有群友补充：开启 Cloudflare 的 Crawler Hints 也有效。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/09-ruhe-huoqu-bing-liuliang.md、同仓库路径 judgeKey/34-wy1907a4n0.md
-- **收录快慢**：一看内链做得好不好，二看有没有初始外链，"一两个就可以"。买老域名前，先上 archive.org 查有没有被用过，用过就换一个。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/19-m7wq53ovv4.md
-- **改版不丢流量（案例 therighthairstyles.com）**：可以加新页面，但旧页面的 URL 和内容要保持不变。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md
-- **爬虫预算（小课堂 2025-02-26）**：谷歌给每个站分配的抓取预算不同。大量低质页面会让预算被调低，已收录的页面也可能被移出索引；如果继续生产，就会受到惩罚。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/46-mdkswtcdsx.md
+- **获取 Bing 流量（哥飞群分享 2025-01-25，2025-03 回顾时每天两三百点击）**：① 提交到 Bing 站长后台；② 加 Sitemap；③ 按后台扫描结果逐项修复（缺 Description、缺 H1、Title 过长）；④ 支持并主动提交 IndexNow；⑤ 在 Cloudflare 开启主动推送。他的推测是：谷歌爬虫够强，不依赖 Sitemap；Bing 和国内搜索引擎为了省钱，更依赖站长提交。还有群友补充：开启 Cloudflare 的 Crawler Hints 也有效。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/09-ruhe-huoqu-bing-liuliang.md（原文发布 2025-03-06）、同仓库路径 judgeKey/34-wy1907a4n0.md（原文发布 2025-10-27）
+- **收录快慢**：一看内链做得好不好，二看有没有初始外链，"一两个就可以"。买老域名前，先上 archive.org 查有没有被用过，用过就换一个。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/19-m7wq53ovv4.md（原文发布 2025-11-06）
+- **改版不丢流量（案例 therighthairstyles.com）**：可以加新页面，但旧页面的 URL 和内容要保持不变。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md（原文发布 2025-10-11）
+- **爬虫预算（小课堂 2025-02-26）**：谷歌给每个站分配的抓取预算不同。大量低质页面会让预算被调低，已收录的页面也可能被移出索引；如果继续生产，就会受到惩罚。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/46-mdkswtcdsx.md（原文发布 2025-10-11）
 
 ## A1 — 原文中的应用 (Past Application)
 

@@ -32,11 +32,11 @@ GSC 是谷歌给你的反馈，先按**四级信号**定位问题在哪一层，
 **时间维度**：老词新页需要时间证明自己，持续外链 3–4 个月才见效；刚做完外链排名暂降不要慌、不要撤链（钓鱼执法/观察期现象）。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **GSC 数据接近实时（案例 2024-06-24，Woy.ai）**：右上角的"上次更新时间"决定数据实际更新到哪天，网站改动几小时内就会反映出来。"已抓取未编入索引"的页面越少越好，不要超过已编入索引的页面数。低质页面常见的原因有翻译质量差、内容太短、半成品页面被放出来。如果多语言只翻了界面、正文没翻，就不要用子目录做多语言，或者把各语言页的 canonical 都指向默认语言页。不存在的错误网址出现 404 时，不用点"验证"，直接申请删除。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/20-y9gsw9h97l.md
-- **网址规范化（案例 2024-08-07，describepicture.org）**：带 utm 参数的网址，用 canonical 指回正规网址。带斜杠和不带斜杠的两个地址同时能打开时，要 301 到 canonical 那个版本，站内链接也统一写成 canonical 版本，否则 GSC 会报重定向。分页列表第一页的 canonical 指向不带页码的网址（Woy.ai 的 /discover/1 会 308 跳到 /discover）。"已发现/已抓取未编入索引"的页面，要么改进内容，要么设成 noindex。核心网页指标"能改则改"。该站当时只有 57 个外链域名，就拿下了前排排名。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/23-sqfjmrroio.md
-- **核心词密度失控会立刻被降权（案例 2024-06-03，ChatGPT4o.ai）**：一次发版让首页全文输出问答，正文从 400 多词涨到两三千词，而且都与 GPT 4o 无关，第二天曝光就断崖下跌。改回去后，排名也没有恢复。哥飞的经验是：进了"小黑屋"，要花比新站多 10 倍的努力，不如换个新域名重做。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/19-m7wq53ovv4.md
-- **Woy.ai 只剩首页被收录（2025-09-08）**：哥飞认为原因是替代品页、标签页、section 页再乘以多语言，导致页面数量暴涨、质量又低；更重要的是大量新注册的域名给 Woy 做了全站外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md
-- **Ahrefs 和 GSC 的外链数据对不上**：各家爬虫独立运行，GSC 显示的外链也有延迟，所以两边数据不一致是正常的。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/46-mdkswtcdsx.md
+- **GSC 数据接近实时（案例 2024-06-24，Woy.ai）**：右上角的"上次更新时间"决定数据实际更新到哪天，网站改动几小时内就会反映出来。"已抓取未编入索引"的页面越少越好，不要超过已编入索引的页面数。低质页面常见的原因有翻译质量差、内容太短、半成品页面被放出来。如果多语言只翻了界面、正文没翻，就不要用子目录做多语言，或者把各语言页的 canonical 都指向默认语言页。不存在的错误网址出现 404 时，不用点"验证"，直接申请删除。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/20-y9gsw9h97l.md（原文发布 2025-11-06）
+- **网址规范化（案例 2024-08-07，describepicture.org）**：带 utm 参数的网址，用 canonical 指回正规网址。带斜杠和不带斜杠的两个地址同时能打开时，要 301 到 canonical 那个版本，站内链接也统一写成 canonical 版本，否则 GSC 会报重定向。分页列表第一页的 canonical 指向不带页码的网址（Woy.ai 的 /discover/1 会 308 跳到 /discover）。"已发现/已抓取未编入索引"的页面，要么改进内容，要么设成 noindex。核心网页指标"能改则改"。该站当时只有 57 个外链域名，就拿下了前排排名。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/23-sqfjmrroio.md（原文发布 2025-11-04）
+- **核心词密度失控会立刻被降权（案例 2024-06-03，ChatGPT4o.ai）**：一次发版让首页全文输出问答，正文从 400 多词涨到两三千词，而且都与 GPT 4o 无关，第二天曝光就断崖下跌。改回去后，排名也没有恢复。哥飞的经验是：进了"小黑屋"，要花比新站多 10 倍的努力，不如换个新域名重做。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/19-m7wq53ovv4.md（原文发布 2025-11-06）
+- **Woy.ai 只剩首页被收录（2025-09-08）**：哥飞认为原因是替代品页、标签页、section 页再乘以多语言，导致页面数量暴涨、质量又低；更重要的是大量新注册的域名给 Woy 做了全站外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md（原文发布 2025-10-14）
+- **Ahrefs 和 GSC 的外链数据对不上**：各家爬虫独立运行，GSC 显示的外链也有延迟，所以两边数据不一致是正常的。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/46-mdkswtcdsx.md（原文发布 2025-10-11）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **流氓广告会立刻掉排名**：接入 adsterra 时如果没有屏蔽它某些流氓的广告形式，谷歌很快就能感知到体验变差，随即降低排名，直到改好、体验恢复后才可能恢复流量。排查排名下降时，先查最近有没有接入新的广告联盟或启用新的广告形式。来源：公开流传的哥飞群聊截图 2026-10-22

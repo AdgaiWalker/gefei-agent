@@ -17,17 +17,17 @@
 - **好产品自带外链**：GPTsHunter 4 天被转发出 33 个引用域名。
 
 ### 补充（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，2026-10-27 整理）
-- **抄竞品外链的做法（哥飞小课堂 2025-01-20）**：用 Ahrefs/Semrush 导出多个竞品的外链后取并集，被越多竞品共用的外链越先做；对权重为 0 的新站来说，质量再差的外链也比没有好，但不要买垃圾外链。案例：Sprunkin.com 晚入场 20 天，靠持续加外链（878 个引用域名）、持续上游戏内页（1330 页收录）、把游戏放 CDN 允许别人 iframe 嵌入，两三个月流量从 3 万涨到 365 万/月。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/01-shangzhan-zhihou-yaozuoshenme.md
-- **博客评论外链（哥飞，web.cafe/experience 2025-02-20）**：用 site 语法找同主题文章，读完后留有价值的讨论；链接放在个人主页或姓名字段即可。需要审核的博客要考虑站长愿不愿意放行；免审核博客很难主动找，一般靠抄同行外链发现。哥飞自己也承认这是在制造垃圾信息，但目前仍然有效。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/05-bolg-pinglun-wailian.md
+- **抄竞品外链的做法（哥飞小课堂 2025-01-20）**：用 Ahrefs/Semrush 导出多个竞品的外链后取并集，被越多竞品共用的外链越先做；对权重为 0 的新站来说，质量再差的外链也比没有好，但不要买垃圾外链。案例：Sprunkin.com 晚入场 20 天，靠持续加外链（878 个引用域名）、持续上游戏内页（1330 页收录）、把游戏放 CDN 允许别人 iframe 嵌入，两三个月流量从 3 万涨到 365 万/月。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/01-shangzhan-zhihou-yaozuoshenme.md（原文发布 2025-01-20）
+- **博客评论外链（哥飞，web.cafe/experience 2025-02-20）**：用 site 语法找同主题文章，读完后留有价值的讨论；链接放在个人主页或姓名字段即可。需要审核的博客要考虑站长愿不愿意放行；免审核博客很难主动找，一般靠抄同行外链发现。哥飞自己也承认这是在制造垃圾信息，但目前仍然有效。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 other/05-bolg-pinglun-wailian.md（原文发布 2025-02-20）
 - **群友做法（非哥飞，2026-04-24）**：用 chrome-devtools-mcp 配合 Cursor 或 Claude Code 自动发外链，在 dev.to、sourceforge 上比较顺利；内容太像推广会被删，速度也慢。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 Clippings/使用chrome-devtools-mcp + AI自动化发外链.md
 - **仍缺**："几十个外链小技巧"所用的网站清单，所有仓库里都只有公众号公开的截断版（如 Jayin/gefei-seo-cookbook/articles/seo-tutorials/分享一个容易实操…小技巧.md）。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **抄高权重外链**：看竞品外链里的 Best Links 部分，这些就是高权重外链，照着去抄作业（群友子木的方法，哥飞在小课堂推荐）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/01-go8e119lew.md
-- **外链不是万能的，但没有外链万万不能（案例 2025-01-19，uncrop.com）**：外链让谷歌看到新站，具体排第几还要看内容、功能和用户行为。外链的主要作用是提升权重，带来的那点直接访问量是次要的。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/32-hruqt6xlhv.md、同仓库路径 judgeKey/44-xlft7pezkb.md
-- **低质外链会反伤**：大量刚注册的新域名给 Woy.ai 做全站外链，是它几乎被清出索引的重要原因之一（哥飞判断）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md
-- **免费工具引流和换外链（Ahrefs 案例）**：Ahrefs 的 backlink checker 和 traffic checker 单月分别带来 110 万、160 万访问，同时还换来大量外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md
-- **推广渠道 8 种（哥飞早期分享）**：SEO+SEM、联盟、AI 导航站（全球约 300 多个，TAAFT 首次提交一百多美元，Toolify 49 美元）、Reddit（要写软一点）、Show HN、Product Hunt（至少能拿到一个外链）、红人、社交媒体。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/05-paihangbang-wajue-zhuanqian.md
+- **抄高权重外链**：看竞品外链里的 Best Links 部分，这些就是高权重外链，照着去抄作业（群友子木的方法，哥飞在小课堂推荐）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/01-go8e119lew.md（原文发布 2025-10-11）
+- **外链不是万能的，但没有外链万万不能（案例 2025-01-19，uncrop.com）**：外链让谷歌看到新站，具体排第几还要看内容、功能和用户行为。外链的主要作用是提升权重，带来的那点直接访问量是次要的。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/32-hruqt6xlhv.md（原文发布 2025-10-27）、同仓库路径 judgeKey/44-xlft7pezkb.md（原文发布 2025-10-14）
+- **低质外链会反伤**：大量刚注册的新域名给 Woy.ai 做全站外链，是它几乎被清出索引的重要原因之一（哥飞判断）。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/44-xlft7pezkb.md（原文发布 2025-10-14）
+- **免费工具引流和换外链（Ahrefs 案例）**：Ahrefs 的 backlink checker 和 traffic checker 单月分别带来 110 万、160 万访问，同时还换来大量外链。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/45-qxza0rekyl.md（原文发布 2025-10-11）
+- **推广渠道 8 种（哥飞早期分享）**：SEO+SEM、联盟、AI 导航站（全球约 300 多个，TAAFT 首次提交一百多美元，Toolify 49 美元）、Reddit（要写软一点）、Show HN、Product Hunt（至少能拿到一个外链）、红人、社交媒体。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/05-paihangbang-wajue-zhuanqian.md（原文发布 2024-08-13）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **立场更新：ChatGPT 推荐流量不依赖外链**（2026-10-04，比本卡里"外链推你进前 10"的谷歌口径更新）："谷歌要看你网站权重，ChatGPT 不看权重，就看你网站是否满足用户询问意图。"新词新站拿 ChatGPT 流量"不依赖外链，成本极低"。注意，谷歌排名仍然需要外链，这一条只适用于 ChatGPT 推荐渠道。来源：公开流传的哥飞群聊截图 2026-10-04

@@ -24,8 +24,8 @@
 贯穿原则：先从小词做起；快就是优势、完成比完美重要；做站的数量胜过单站憋大招；网站是可以长期养的资产（养网站防老）。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **新手避坑清单（哥飞航海开船第一课，带 AI 工具站）**：找已经存在的需求，别自己凭空想；新手别做太大，一个月内要能做完；不要一上线就申请 AdSense，有流量后再申请；产品还没做就别去注册海外公司；"网站上线只完成了赚钱的 20%，剩下 80% 是推广"。他给的最小 MVP 路径是：找需求 → 做站（Replicate/HuggingFace API + v0）→ 提交 GSC、在社区发帖、上 Product Hunt、提交导航站 → 有流量后再接 AdSense。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/04-xinshou-chuhai-diyizhan.md
-- **别着急（小课堂 2025-06-18，Airbrush.com）**：这个站首页坐了很久冷板凳，访问量从 0 到 10 万用了 10 个月，再涨到 200 万又用了 11 个月；团队大约一个月才上一个新页面。哥飞的原话："更应该问，几天上一个页面合适"，"你对页面敷衍了事，谷歌就对你的网站敷衍了事"。老词新页要靠时间证明自己。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/52-lamwyfyn4v.md、同仓库路径 judgeKey/38-00u3758pt7.md
+- **新手避坑清单（哥飞航海开船第一课，带 AI 工具站）**：找已经存在的需求，别自己凭空想；新手别做太大，一个月内要能做完；不要一上线就申请 AdSense，有流量后再申请；产品还没做就别去注册海外公司；"网站上线只完成了赚钱的 20%，剩下 80% 是推广"。他给的最小 MVP 路径是：找需求 → 做站（Replicate/HuggingFace API + v0）→ 提交 GSC、在社区发帖、上 Product Hunt、提交导航站 → 有流量后再接 AdSense。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 jinjiejiaocheng/04-xinshou-chuhai-diyizhan.md（原文发布 2024-08-13）
+- **别着急（小课堂 2025-06-18，Airbrush.com）**：这个站首页坐了很久冷板凳，访问量从 0 到 10 万用了 10 个月，再涨到 200 万又用了 11 个月；团队大约一个月才上一个新页面。哥飞的原话："更应该问，几天上一个页面合适"，"你对页面敷衍了事，谷歌就对你的网站敷衍了事"。老词新页要靠时间证明自己。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/52-lamwyfyn4v.md（原文发布 2025-10-10）、同仓库路径 judgeKey/38-00u3758pt7.md（原文发布 2025-10-22）
 
 ### 补充（来源：公开流传的哥飞群聊截图 2026-10-04 / 2026-10-22，2026-10-27 整理）
 - **整套技能链（13:05 更正版）**：挖掘关键词找需求 → 理解关键词背后的需求 → 做网站满足需求 → 通过 SEO、SEM、GEO 获取流量 → 网站承接流量 → 流量变现。他的原话："我们不可能一直在等大机会来临……所以我们平常需要多多上站练习，巩固技能。"来源：公开流传的哥飞群聊截图 2026-10-22

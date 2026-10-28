@@ -16,7 +16,7 @@
 - 多语言程序化页面优先子目录。
 
 ### 补充·第二批（来源：GitHub [hlwhut225/gefei-knowledge-base](https://github.com/hlwhut225/gefei-knowledge-base)，小课堂与案例拆解，2026-10-27 整理）
-- **两地距离类海量页面（小课堂 2024-09-13，distance.to）**：数据库存结构化数据，套模板动态渲染，被收录约 129 万页，不需要 AI。数据要拆成结构化字段才能任意组合成页面。只为真实有人搜的组合生成页面；不抓非公开或有版权的数据。新站先每天上约 10 个页面试水，看是否都被抓取、都出词，再决定放量。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/25-rlomi8cdfq.md
+- **两地距离类海量页面（小课堂 2024-09-13，distance.to）**：数据库存结构化数据，套模板动态渲染，被收录约 129 万页，不需要 AI。数据要拆成结构化字段才能任意组合成页面。只为真实有人搜的组合生成页面；不抓非公开或有版权的数据。新站先每天上约 10 个页面试水，看是否都被抓取、都出词，再决定放量。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/25-rlomi8cdfq.md（原文发布 2025-11-03）
 
 ## A1 — 原文中的应用 (Past Application)
 
