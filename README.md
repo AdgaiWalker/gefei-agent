@@ -166,6 +166,8 @@ AI 会自己把它装成 skill。
 
 3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22，及一条无日期）：哥飞本人发言的文字整理见 [sources/group-chat/20261004.md](sources/group-chat/20261004.md)、[sources/group-chat/20261022.md](sources/group-chat/20261022.md)；与刘小排的分工定位见 [sources/group-chat/刘小排分工.md](sources/group-chat/刘小排分工.md)。不含截图原图与其他群友发言。
 
+4. **哆啦的笔记**（个人整理，非哥飞原话）：[西门出海经验，哆啦 2026-10-27 整理](gefei/references/practitioner/ximen-2026-10-27.md)，判词、定价、建站选型、收款问题的实战补充；与哥飞冲突时以哥飞为准。
+
 卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。
 
 4. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
