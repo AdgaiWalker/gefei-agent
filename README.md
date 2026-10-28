@@ -129,7 +129,10 @@ AI 会自己把它装成 skill。
 哥飞本人明确说"我猜""我怀疑""我的推断"的内容，标成【推测】，不要当成定论。
 
 **怎么查某条说法的出处？**
-每条都写了来源：公众号文章用日期 `YYYYMMDD` 标注，到 [sources/articles-index.md](sources/articles-index.md) 按日期查标题和原文链接；GitHub 来源写了仓库和文件路径；群聊内容见 [sources/group-chat/](sources/group-chat/)。也可以直接问 Agent："这条出自哪里？"
+每条都写了来源：公众号文章用日期 `YYYYMMDD` 标注，到 [sources/articles-index.md](sources/articles-index.md) 按日期查标题和原文链接；GitHub 来源写了仓库和文件路径；群聊内容见 [sources/group-chat/](sources/group-chat/)。每条出处都带原文日期。也可以直接问 Agent："这条出自哪里？"
+
+**里面的数据还准吗？**
+方法可以照用；搜索量、竞争度、价格、收入等数字有时效，卡片会提醒你下结论前重新查。
 
 **这是哥飞本人做的吗？**
 不是。这是非官方整理，与哥飞无关，也没有得到他的背书。理解可能有偏差，以哥飞原文为准。想系统学习请关注公众号「哥飞」。
@@ -164,6 +167,8 @@ AI 会自己把它装成 skill。
 3. **公开流传的哥飞群聊截图**（2026-10-04、2026-10-22，及一条无日期）：哥飞本人发言的文字整理见 [sources/group-chat/20261004.md](sources/group-chat/20261004.md)、[sources/group-chat/20261022.md](sources/group-chat/20261022.md)；与刘小排的分工定位见 [sources/group-chat/刘小排分工.md](sources/group-chat/刘小排分工.md)。不含截图原图与其他群友发言。
 
 卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。
+
+4. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可证
 

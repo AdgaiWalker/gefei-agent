@@ -28,3 +28,6 @@
 
 ## 4. 校验
 用 cangjie-skill 的 `scripts/validate_skill_pack.py <本仓库路径>` 校验，应为 0 errors。
+
+## 读者反馈
+- 2026-10-28 · X [@growaiskills](https://x.com/growaiskills/status/2115111506060701768)：建议每条经验附原文日期和适用条件，判词时重查近期搜索量和搜索结果页。已采纳：GitHub 来源补原文发布日期；判词/找新词/变现定价/竞品研究四张卡加「数据时效规则」。
