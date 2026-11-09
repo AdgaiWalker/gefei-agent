@@ -138,7 +138,7 @@ AI 会自己把它装成 skill。
 不是。这是非官方整理，与哥飞无关，也没有得到他的背书。理解可能有偏差，以哥飞原文为准。想系统学习请关注公众号「哥飞」。
 
 **答案和最新情况不一样？**
-内容截止到 2026-10-26 的文章。先 `git pull` 更新；仍不一致，欢迎提 issue。
+内容截止到 2026-11-08 的文章。先 `git pull` 更新；仍不一致，欢迎提 issue。
 
 ---
 
@@ -150,7 +150,7 @@ AI 会自己把它装成 skill。
 
 详见 [SOURCES.md](SOURCES.md)。
 
-1. **公众号「哥飞」**（主来源）：2019–2026-10-26 的公开文章。全部 862 篇文章索引（日期、标题、原文链接；585 篇有 mp.weixin 链接）见 [sources/articles-index.md](sources/articles-index.md)。部分早期文章文本取自 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)（未声明许可证）。
+1. **公众号「哥飞」**（主来源）：2019–2026-11-08 的公开文章。全部 867 篇文章索引（日期、标题、原文链接；590 篇有 mp.weixin 链接）见 [sources/articles-index.md](sources/articles-index.md)。部分早期文章文本取自 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)（未声明许可证）。
 2. **GitHub 公开仓库**：
 
 | 仓库 | 许可证 | 本仓库如何使用 |
