@@ -41,3 +41,7 @@
 
 - "一国一站"为单一嘉宾经验，成本更高；新手不建议一开始就做。
 - 低价值国家流量付费率低（见变现卡）。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- 先英文站稳再加语言；每语言独立子目录、一页一种语言、canonical 写自己、hreflang + x-default、robots.txt 每种语言各写一行不用通配符；关键词要本地化（韩语文案被自动改后流量归零案例）（guide/06 Step 8）。

@@ -50,3 +50,7 @@
 
 - 多站矩阵若内容雷同、域名近似，可能被判仿冒或垃圾站。
 - 托管计费以平台最新政策为准。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- 站点台账、第一个站做模板、手工跑通再自动化、往相邻需求复制、SEO+SEM 放大、养/关判断（guide/13）；年赚回域名费就可放着（articles/10-scale/2025-03-15-如何低成本的养着一个网站…md）；主动关掉被刷外链的 ReadWeb.ai（2025-05-28）；饱和式建站（2023-10-26）；投放 197 ROI 其实白高兴（2025-10-16）。

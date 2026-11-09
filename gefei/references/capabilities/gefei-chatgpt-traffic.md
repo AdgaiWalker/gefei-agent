@@ -65,3 +65,7 @@
 - 依据主要是哥飞个人和群友在 2026-09 底到 10 月初的观察，样本小、时效强。AI 推荐机制随时可能变化。
 - 标为【推测】的内容（监控新域名和 SSL 证书、三类行为信号）是哥飞自己说的猜测，不能当作事实。
 - "大模型好骗"不等于可以虚假宣传。文案要与产品真实能力一致，否则用户行为信号会反噬，也可能有法律风险。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- 仓库内仅有原则性内容：AI 回答也是去搜网页、权重高的网页更易被引用（articles/05-ranking/2025-02-18-以DeepSeek为例…AISEO.md；guide/01 Step 1）；未发现 ChatGPT 推荐流量的具体操作方法。

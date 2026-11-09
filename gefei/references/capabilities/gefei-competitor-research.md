@@ -72,3 +72,7 @@
 - 以上都是第三方估算加"至少不亏本"的假设，只能给数量级，不能当作真实财务数据。
 - Similarweb 在 2025-07 之后部分页面数据已经取消（见 jinjiejiaocheng/08），工具能看到什么以当前实际为准。
 - 只研究公开数据，不碰非公开数据，也不做仿冒。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- 看任何网站都去看流量和来源分布（2023-09-13）；找出网站靠哪些页面拿流量（2023-10-04）；site 语法五种用法（2025-03-11）；第三方流量数据来源别过度相信（2023-09-23）；whois + archive.org 查对手上线时间（guide/04 Step 11；guide/10 Step 6–9）。

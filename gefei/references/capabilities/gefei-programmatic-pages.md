@@ -44,3 +44,7 @@
 
 - 无真实搜索需求的组合页=低质页，会触发"已发现未抓取"。
 - 数据来源需合法可用；作者未系统讨论数据版权。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- distance.to 收录 129 万页=模板+结构化数据；每页对准真实需求、避免描述雷同、非公开/有版权数据不抓；新站批量必死，小步放量 10→20→…（guide/06 Step 9；articles/04-onpage/2024-09-13-…程序化SEO…md；2025-03-20-…必死.md）。

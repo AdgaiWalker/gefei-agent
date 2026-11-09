@@ -94,3 +94,13 @@
 - Semrush/Similarweb 对新词数据滞后，量要以谷歌趋势/Ads 关键词规划师为准。
 - IP/游戏名/品牌词有版权与仿冒风险（见 onpage 卡危险网站申诉）；本卡不评估法律问题。
 - 谷歌趋势找新词方法已从GitHub 社群整理内容补上（见 I 节补充）；外链列表、内部找词工具、"8 种找词方式"原文仍缺，不要假装知道。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- **Google Trends 找词流程（guide/04 Step 1）**：全球、7/30/90 天，相关查询切到“上升”，看 Breakout；陌生词点“探索”拉长到 12 个月/5 年；一个词带出一串词（TTS→ChatTTS/拼错的 ChaTTS；AI Music→udio→suno）。也可不输词只选分类看上升查询。
+- **判断出现时间（2023-11-16）**：曲线从 0 抬起的日期即出现时间；超过 12 个月不算新词；老词热度暴涨≠新词（Ghibli 例，真正新词是 chat gpt ghibli）。Ads 规划师查不到历史也说明是新词；Semrush 对新词数据滞后（articles/02-keywords/2023-11-16-哥飞教你一招判断关键词出现时间…md）。
+- **51 个财富密码词根批量拓词**（articles/02-keywords/2023-09-12-【收藏】51个挖掘需求时能用得上的财富密码关键词…md）；trendingkeywords.net 追新词（2024-06-24）。
+- **先发优势（2025-03-18）**：“尽快发布，比尽善尽美更好”，最简形态可以只是一个 html；支付登录不是上线必须。blockblastsolver.com 案例：词火前已上线，DR20/43 引用域名打赢 DR21/145 的 .org（articles/02-keywords/2025-03-18-新词来了时…md；2025-02-22-案例演示…md）。
+- **最高境界是自己推起一个词**（articles/01-direction/2025-08-11-成功商业模式-=-产品力-×-共识力…md）；热点过去余量仍可吃很久（2025-02-28）。
+- **老词长尾**：Semrush 变体/问题/相关词；下拉词与相关搜索收窄；保小图大（兄弟词→父词）；“A+变量”模板词（xx near me、books in order、distance from A to B）；“农村包围城市”1 万小词×10 访问/天（2023-12-11）（guide/04 Step 9）。
+- 新手追热点追新词，老手做难而正确的事（articles/02-keywords/2025-02-28-…md）。

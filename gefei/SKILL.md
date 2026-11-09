@@ -55,6 +55,12 @@ metadata:
 - 决策规则速查（不需要原文依据时） → references/cheatsheet.md
 - 完整意图与关键词索引（本表未覆盖的意图先查这里） → references/capability-index.md
 
+## 一手来源：哥飞本人仓库 OpenGeFei（2026-10-27 接入）
+- 仓库 [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)（GitHub 用户 qiayue，资料 name=gefei、bio=哥飞），commit 4b9243a（2026-09-27 14:04 UTC+8）。
+- **优先级：哥飞本人仓库 > 公众号原文 > 社群/群友整理仓库 > 群聊截图**。各能力卡中「### 哥飞本人仓库补充」节与旧内容冲突时以该节为准。
+- 仓库中 stories/（群友复盘）、wall/（群聊报喜）、community/（社群链接索引）仍属群友内容，引用时注明“群友”。
+- 收款（guide/12）暂无对应能力卡，直接读 [guide/12-第10步-收款：把钱拿到手.md](https://github.com/qiayue/OpenGeFei/tree/main/guide)。
+
 ## 加载规则
 
 - 每次任务先读本文件，再按路由表加载 **1** 张能力卡；任务明确跨域时最多加载 2 张。

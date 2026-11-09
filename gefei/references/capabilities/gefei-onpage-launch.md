@@ -80,3 +80,13 @@
 - TDH：Title/Description 生成流程已从GitHub 社群整理内容补上（见 I 节补充）；H 标签细则和新站页面细节仍未找到原文。
 - 平台（Vercel/Cloudflare）计费与功能会变，执行时以官网为准。
 - 中国大陆注册商/备案不在本卡范围（作者建议用海外注册商）。
+
+### 哥飞本人仓库补充（来源：GitHub [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)，2026-10-27 整理）
+> 来源优先级：**一手（哥飞本人仓库 qiayue/OpenGeFei，commit 4b9243a，2026-09-27 14:04 UTC+8）> 会员/群友整理**。与本卡旧内容冲突时以本节为准。guide/ 为哥飞整理的教程（无单独日期，以 commit 日期计）；stories/、wall/ 中群友内容仍属群友经验。路径均相对仓库 https://github.com/qiayue/OpenGeFei。
+- **TDK→TDH（2024-04-06）**：Keywords 十年前就不写了；Title 主词靠前、每页不同；一页一个 H1 且含主词；H 标签提纲要能看出页面讲什么（articles/04-onpage/2024-04-06-【哥飞SEO教程】从-TDK-到-TDH.md）。
+- **关键词密度**：ChatGPT4o.ai 首页把问答全文输出、从 400 词变两三千词后排名大跌；UGC 不进落地页正文；重复按钮文案用 CSS content 写（guide/06 Step 3；articles/04-onpage/2025-05-14-…）。
+- **首屏给功能**，下面依次 How to use / Features / 场景 / FAQ / 相关链接；免登录可试用以提升停留（guide/06 Step 4；articles/11-cases/2024-03-08-…277万…md）。
+- **canonical 三规则（2024-05-16）**：写自己的网址；不要全站写首页；多语言各写各的；注意 /ja 与 /ja/ 末尾斜杠。
+- **新站批量上页面必死（2025-03-20）**：新站判定=域名或上线 <6–12 个月、引用域名 <100、DR<40、前 20 名页面 <100；四条都不符合才试批量：10 个→看收录出词→20 个……每天 10→100→…→1000（articles/04-onpage/2025-03-20-…必死.md；guide/06 Step 9）。
+- **收录预期**：提交 GSC 一般 24 小时内收录，外链刺激最快 2 小时；收录后 24–48 小时应有曝光，48 小时全无动静说明文案有问题（guide/07 Step 2、Step 8，小课堂）。实例：1 小时收录（Threads 站）、当天 41 点击（2025-03-21）。
+- **上线顺序**：先 GSC + sitemap、重要页面请求编入索引、再用外链吸引爬虫（guide/07 Step 3–5）。
