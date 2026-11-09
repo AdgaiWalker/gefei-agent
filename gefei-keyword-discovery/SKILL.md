@@ -57,6 +57,12 @@ metadata:
 - **ChatGPT 同样需要新词**："ChatGPT 也一样需要回答最新的问题，于是我们同样去做新词新站。"来源：公开流传的哥飞群聊截图 2026-10-04
 
 
+### 公众号补充（2026-11-06/11-08 文章，2026-11-09 整理）
+- **新词源头在社媒**：找新词的源头在推特、TikTok 这些社交媒体，谷歌趋势会晚几天；三年前的“找新词”策略在 ChatGPT 上一样有效。来源：公众号《哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会》(20261106，只取哥飞本人分享部分；其他嘉宾内容不并入)
+
+### 补充（来源：GitHub [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money)，2026-11-09 整理）
+- **哥飞 SEO 工具箱（seo.web.cafe）**（非哥飞原话/学员整理）：学员整理的 Web.Cafe 找需求工具清单里列了它，用途是从模糊概念扩展具体关键词和对标网站。工具本身是否对外开放、怎么收费未核实。来源：https://github.com/gangbo/gefei-make-money 路径 docs/00-methodology/web-cafe-demand-discovery-websites-2026-09-04.md（commit 259b753）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：小工具站上线四个多月（20250825）

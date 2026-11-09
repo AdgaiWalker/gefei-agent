@@ -1,9 +1,10 @@
 # SOURCES — 信息来源与处理基线
 
-最后更新：2026-10-28（新增「哆啦的笔记」，UTC+8）。
+最后更新：2026-11-09（补入公众号 2026-11-06、11-08 三篇；新增 GitHub 来源 gangbo/gefei-make-money，UTC+8）。
 
 ## 1. 公众号「哥飞」文章（主来源）
 - 已蒸馏到 **2026-10-26** 及以前发布的文章（共约 862 篇）。全部 862 篇（去重后）的日期、标题、原文链接见 [sources/articles-index.md](sources/articles-index.md)，卡片中以 `YYYYMMDD` 引用。
+- 2026-11-09 另补入三篇：20261106《设了 Canonical，谷歌还是收录了复制站》、20261106《哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会》（只取哥飞本人分享部分）、20261108《花了1.7万美元买外链，没把老站救回来》。
 - 部分早期文章文本取自 GitHub 公开导出 [mundane799699/gefei_mp_export](https://github.com/mundane799699/gefei_mp_export)。
 - 本仓库**不包含文章正文**，只含提炼后的方法和简短引用。
 
@@ -19,6 +20,7 @@
 | [huodesheng/sitemap-monitor-ext](https://github.com/huodesheng/sitemap-monitor-ext) | 187ce04 | 工具参考（sitemap 监控找新词） | MIT |
 | [ifyour/gefei-seo-skill](https://github.com/ifyour/gefei-seo-skill) | 3fea58a | 第三方 skill，仅对照 | MIT |
 | [tens1x/gefei-perspective-skill](https://github.com/tens1x/gefei-perspective-skill) | b2a719c | 第三方 skill，仅对照 | MIT（README 声明） |
+| [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money) | 259b753 | 学员整理的资料库。只引用其中哥飞社群外链悬赏帖里署名「哥飞」的评论（外链卡）；哥飞 SEO 工具箱一条标「非哥飞原话/学员整理」（找新词卡）；其余学员心得、选品资料未收录 | 未声明 |
 
 **明确排除**：hlwhut225/gefei-knowledge-base 中原文标注"不要外传"的两篇（judgeKey/29、jinjiejiaocheng/01），其任何内容均未收录。
 

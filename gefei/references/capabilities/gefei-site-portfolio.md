@@ -22,6 +22,9 @@
 - **长期养站的回报**：capitalizemytitle.com 2012 年上线，年访问量 5219 万，几乎没有开发成本，"这就是为什么养网站能够防老"；arstechnica 做了二十多年，持续发文章"就可以养到老"。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/28-08zfe1fbve.md（原文发布 2025-10-29）、同仓库路径 judgeKey/14-0qbjbl6dvd.md（原文发布 2025-11-21）
 - **不更新就会被后来者超过（案例 liveworksheets）**：同类站里，域名越老的流量反而越小。来源：https://github.com/hlwhut225/gefei-knowledge-base 路径 judgeKey/31-p9qtw6c5z0.md（原文发布 2025-10-28）
 
+### 公众号补充（2026-11-06/11-08 文章，2026-11-09 整理）
+- **【立场变化】“长期养站”不等于“救站”**：本卡原有“低成本长期养站、老站带新站”的观点不变，但哥飞 2026-11-08 明确：曾有高光、跌下来后长期横盘的 2024 年老站（高权重老站除外），不要继续砸外链挽救，同一笔预算换新域名做新站 ROI 更高。判断方法见 `gefei-gsc-diagnosis`、`gefei-backlinks-promotion` 同日补充。来源：公众号《【哥飞SEO教程】花了1.7万美元买外链，没把老站救回来》(20261108)
+
 ## A1 — 原文中的应用 (Past Application)
 
 - humanbenchmark.com（2006 年注册仍有百万访问）、矩阵工具站（20231009）。
