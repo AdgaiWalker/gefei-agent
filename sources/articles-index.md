@@ -1,6 +1,6 @@
 # 公众号「哥飞」文章全索引
 
-共 862 篇（2019-10-14 至 2026-10-26，已去重），其中 585 篇有公开 mp.weixin 链接。卡片中以 `YYYYMMDD` 引用的文章可按日期在此查到。本仓库不含文章正文，请到公众号「哥飞」阅读原文。
+共 867 篇（2019-10-14 至 2026-11-08，已去重），其中 590 篇有公开 mp.weixin 链接。卡片中以 `YYYYMMDD` 引用的文章可按日期在此查到。本仓库不含文章正文，请到公众号「哥飞」阅读原文。
 
 | 日期 | 标题 | 原文链接 |
 |---|---|---|
@@ -866,3 +866,8 @@
 | 2026-10-24 | 吃瓜，哥飞发帖装……，被人打假 | https://mp.weixin.qq.com/s?__biz=MjM5OTIzMzYyMA==&mid=2650093954&idx=1&sn=a3dad7115a8f373785e901e401ef79a9 |
 | 2026-10-25 | 【哥飞SEO教程】新网站被浏览器提示危险，该怎么检查和申诉？ | https://mp.weixin.qq.com/s?src=11&timestamp=1792980535&ver=7049&signature=lt2xA3j-vCQSXpcfRjmHKOabziF5za9PDBpECpoqhXXkPNjQFxS4fD3D9of7*djiKrs8aVAgmalzUihNaTI7sciTo-ztquITPXnhrC2SIXgj6L4IgR6vrc7o7xPjNwO6&new=1 |
 | 2026-10-26 | 两件往事，一个决定 | https://mp.weixin.qq.com/s?src=11&timestamp=1793066791&ver=7051&signature=Og4-DOUG8FXMboltueNH2CxOE5RZ9YM5R1yM7H4ALuvHOPq-qNwXBRvM1GMmz-VV6aTLTzntcrlEqkl1F6CzNatLIdp*d3Wg7Vb4tyVY081W1Xrr87amhDeIcNnl0ZnC&new=1 |
+| 2026-10-29 | 【哥飞SEO教程】新站外链还要不要买？先在GSC里对比24小时和28天 | https://mp.weixin.qq.com/s?src=11&timestamp=1793585118&ver=7063&signature=hS-Ca7dKGZOxydKFYvtuuRDgazljtz-MAs-pBsvLerdsvkw0Mo62TDfMyHACL8NmSEIM2gR5iP4HHq6gkXDl74KF36VIPHPvd8InujMZZ-8TqVOhCr3SdSYctdSGJd0I&new=1 |
+| 2026-11-01 | 哥飞社群元旦开始涨价，今天开始双十一超低折扣，为期十一天，以后再也没有这样的优惠价格了 | https://mp.weixin.qq.com/s?__biz=MjM5OTIzMzYyMA==&mid=2650094032&idx=1&sn=05a23f9fcd44f95201fbe3a9560d7da1 |
+| 2026-11-06 | 【哥飞SEO教程】设了 Canonical，谷歌还是收录了复制站：我单日 1 万点击的新站就这么掉了排名 | https://mp.weixin.qq.com/s?src=11&timestamp=1794211495&ver=7077&signature=3KqYhEVuzGbluhKHvgjH5GXRGBrFHBcgn8cE5Qb8oA-jys3i9*hcNQG7iA5ETkbMVKPEmsqPKjendEV2QB66M4BRU5BuIxvBmBBNo*eTp2IHpl5GzBfXkfFxhEYlHM61&new=1&nwr_flag=1 |
+| 2026-11-06 | 哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会 | https://mp.weixin.qq.com/s?src=11&timestamp=1794211515&ver=7077&signature=3KqYhEVuzGbluhKHvgjH5GXRGBrFHBcgn8cE5Qb8oA8U6mWBYJ5F7RpgNhRV0bTnnr6UmH6LJ56Y9Krmd1bXmiAirh4kQarp*hBYnxWhjR6y9d2I754jz3GJaED7Agzq&new=1&nwr_flag=1 |
+| 2026-11-08 | 【哥飞SEO教程】花了1.7万美元买外链，没把老站救回来 | https://mp.weixin.qq.com/s?src=11&timestamp=1794211495&ver=7077&signature=3KqYhEVuzGbluhKHvgjH5GXRGBrFHBcgn8cE5Qb8oA9goq12ckhicOH55Nj1ywg4CxuTTgT-NRU9ubiQSFhS7gWcDZhIeWxs7EcuWlBXokDUoNVZYjnB48RNgLdBbrTE&new=1&nwr_flag=1 |
