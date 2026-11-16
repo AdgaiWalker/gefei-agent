@@ -47,6 +47,13 @@
 - **新站刚有排名先别急着变现**：排名还不稳时先让网站成长；要变现就直接用这个域名申请 AdSense 或接支付，不要借老站广告账号绕路（哥飞因此丢了单日 1 万点击的排名）。来源：公众号《【哥飞SEO教程】设了 Canonical，谷歌还是收录了复制站：我单日 1 万点击的新站就这么掉了排名》(20261106)
 - **按流量来源定价**：ChatGPT 用户偏年轻、爱尝鲜但钱不多，适合一次性小额付费包；谷歌用户各年龄段都有、量最大，可以免费试用再转化；必应用户偏中老年、多为 Windows 用户，喜欢简单直接、讨厌比价和意外收费（有群友年费定 1999 美金照样卖出去，群友案例）。来源：公众号《哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会》(20261106，只取哥飞本人分享部分；其他嘉宾内容不并入)
 
+### 补充（来源：GitHub 学员仓库，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。分成和行情数字须重查官方。完整蒸馏见 `gefei/references/practitioner/` 下对应文件。
+
+- **网页游戏分发是三个市场**：Poki / CrazyGames（及 Coolmath）是免费门户，广告和平台分成是主流；YouTube Playables 超休闲增量大，但是 YouTube 渠道；itch.io 网页区当时以视觉小说 / 叙事高分为主，和「网页游戏站里嵌小游戏」不是同一批用户。热门品类本身不能自动解决变现问题。来源：https://github.com/gangbo/gefei-make-money 路径 research/notes/trending-web-casual-games-2026-11-12.md（commit 4a9859f，2026-11-13）
+- **Agent 技能 / MCP 上架渠道（快照）**：Skillzy、MCP Marketplace、MCPize、SkillHQ、扣子技能商店等分成与结算规则不同，且随官方条款变化。来源：https://github.com/yuanqingsong2024/gefei-quest 路径 data/agent-money/（2026-11-12、2026-11-16；仓库基线 commit bf4e128，2026-11-16）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：日 5K 访客零付费（20250209）

@@ -59,6 +59,13 @@ metadata:
 - **复制站会抢走主站排名，Canonical 拦不住**：哥飞 2025-01-29 为借老站 AdSense 账号挂广告，把新站 A 用子域名 A.C.com 复制一份（Canonical 指回 A，站内导航和按钮却都链到 A.C.com），谷歌照样收录了复制站，A 站单日 1 万多点击一个下午排名就没了，此后每天只剩一百多到七百多点击，加外链也没拿回来。Canonical 只是“强信号”不是命令；站内链接要链到规范网址。来源：公众号《【哥飞SEO教程】设了 Canonical，谷歌还是收录了复制站：我单日 1 万点击的新站就这么掉了排名》(20261106)
 - **规则**：同样内容只留一个主域名，其他能打开同样内容的域名/子域名一律 301 到主域名；不要为了挂广告或别的目的自己复制自己。来源：公众号《【哥飞SEO教程】设了 Canonical，谷歌还是收录了复制站：我单日 1 万点击的新站就这么掉了排名》(20261106)
 
+### 补充（来源：GitHub [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money)，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。体积数字来自该学员本地实测。完整蒸馏见 `gefei/references/practitioner/student-gangbo-2026-11.md`。
+
+- **Ren'Py 网页版体积有硬地板**：引擎 gzip 后大约 11MB（`renpy.wasm` + `renpy.data`）；一次精简后的恋爱向 demo 传输约 16MB。若目标是首次加载 1–3MB 的网页小游戏，不宜用 Ren'Py。来源：https://github.com/gangbo/gefei-make-money 路径 research/notes/renpy-visual-novel-notes-2026-11-11.md（commit 4a9859f，2026-11-13）
+- **嵌入与平台限制**：最稳妥是放到主站同源路径（如 `/games/`）再用 iframe，避免只把游戏放在子域再硬嵌；Ren'Py **不能**直接做微信或抖音小游戏（要 JS/TS 方案）。服务器须开启 gzip/Brotli，并确认 `.wasm` 的 Content-Type 为 `application/wasm`。来源同上。
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：48 小时出流量（20230904）

@@ -75,3 +75,4 @@ metadata:
 
 ## 实战补充来源（非哥飞）
 判词、定价、建站选型、收款问题可另读 `references/practitioner/ximen-2026-10-27.md`。引用时单独成段，标「西门出海经验，哆啦 2026-10-27 整理（个人笔记，非哥飞原话）」，不得混作哥飞原话；与哥飞冲突时以哥飞为准并说明分歧。
+2026-11-16 另有两份【学员内容】蒸馏（非哥飞原话）：`references/practitioner/student-gangbo-2026-11.md`（网页休闲游戏调研、游戏开发 AI Skill/MCP、Ren'Py 网页体积与嵌入、Agent 替代测试），`references/practitioner/student-gefei-quest-2026-11.md`（GEO/AEO checklist、2026-11-10～16 日更快照）。引用时必须标「学员内容」，不得混作哥飞原话；与哥飞冲突时以哥飞为准。数字下结论前须重查。

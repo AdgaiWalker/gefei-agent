@@ -1,6 +1,6 @@
 # SOURCES — 信息来源与处理基线
 
-最后更新：2026-11-09（公开哥飞本人仓库 OpenGeFei 补充节；补齐 20261029 增量，蒸馏基线到 20261108；补入公众号 2026-11-06、11-08 三篇；新增 GitHub 来源 gangbo/gefei-make-money，UTC+8）。
+最后更新：2026-11-16（同步【学员内容】蒸馏：gangbo/gefei-make-money commit 4a9859f、yuanqingsong2024/gefei-quest commit bf4e128；公众号蒸馏基线仍为 20261108，UTC+8）。
 
 ## 1. 公众号「哥飞」文章（主来源）
 - 已蒸馏到 **2026-11-08** 及以前发布的文章（共约 867 篇）。全部 867 篇（去重后）的日期、标题、原文链接见 [sources/articles-index.md](sources/articles-index.md)，卡片中以 `YYYYMMDD` 引用。
@@ -22,7 +22,7 @@
 | [huodesheng/sitemap-monitor-ext](https://github.com/huodesheng/sitemap-monitor-ext) | 187ce04 | 工具参考（sitemap 监控找新词） | MIT |
 | [ifyour/gefei-seo-skill](https://github.com/ifyour/gefei-seo-skill) | 3fea58a | 第三方 skill，仅对照 | MIT |
 | [tens1x/gefei-perspective-skill](https://github.com/tens1x/gefei-perspective-skill) | b2a719c | 第三方 skill，仅对照 | MIT（README 声明） |
-| [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money) | 259b753 | 学员整理的资料库。只引用其中哥飞社群外链悬赏帖里署名「哥飞」的评论（外链卡）；哥飞 SEO 工具箱一条标「非哥飞原话/学员整理」（找新词卡）；其余学员心得、选品资料未收录 | 未声明 |
+| [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money) | 4a9859f | 学员整理的资料库。既有：哥飞社群外链悬赏帖里署名「哥飞」的评论（外链卡）；哥飞 SEO 工具箱一条标「非哥飞原话/学员整理」（找新词卡）。2026-11-16 增补【学员内容】蒸馏（网页休闲游戏调研、游戏开发 AI Skill/MCP、Ren'Py 网页体积与嵌入、Agent 替代测试），见 [student-gangbo-2026-11.md](gefei/references/practitioner/student-gangbo-2026-11.md) | 未声明 |
 
 **明确排除**：hlwhut225/gefei-knowledge-base 中原文标注"不要外传"的两篇（judgeKey/29、jinjiejiaocheng/01），其任何内容均未收录。
 
@@ -42,7 +42,13 @@
 - [西门出海经验，哆啦 2026-10-27 整理](gefei/references/practitioner/ximen-2026-10-27.md)：第三方实战经验（选词、建站模板、定价与成本、收款、长期运营）。引用时单独标注，与哥飞观点分开写，冲突时以哥飞为准。
 - 公开前已删去原笔记「待办」一节（含第三方人名与联系方式转介）；未发现标注"不要外传"或付费会员专属的内容。
 
-## 5. 校验
+## 5. 学员内容（非哥飞原话，2026-11-16 起默认同步）
+- [gangbo/gefei-make-money 2026-11 蒸馏](gefei/references/practitioner/student-gangbo-2026-11.md)：来源仓库 commit `4a9859f`（2026-11-13）。含网页休闲游戏热度调研方法与机会判断、游戏开发 AI Skill/MCP 选型、Ren'Py 网页体积与嵌入、Agent 替代测试。
+- [yuanqingsong2024/gefei-quest 2026-11-10～16 蒸馏](gefei/references/practitioner/student-gefei-quest-2026-11.md)：来源仓库 commit `bf4e128`（2026-11-16）。含 GEO/AEO checklist，以及 ai-wool、github-finds、money-rank、agent-money、opc-briefs 的快照要点。
+- 引用规则：单独成段，标「学员内容」，不得混作哥飞原话；与哥飞冲突时以哥飞为准。数字下结论前须重查。
+- **公开同步规则**（2026-11-16 起）：标注为「学员内容」的蒸馏默认同步到本仓库；原文标注"不要外传"或付费会员专属的内容、密钥和个人信息不同步。
+
+## 6. 校验
 用 cangjie-skill 的 `scripts/validate_skill_pack.py <本仓库路径>` 校验，应为 0 errors。
 
 ## 读者反馈

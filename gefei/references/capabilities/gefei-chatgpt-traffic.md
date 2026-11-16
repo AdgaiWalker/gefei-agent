@@ -30,6 +30,12 @@
 - **为什么新站能拿到**：谷歌官方说每天 15% 的搜索是以前没出现过的；ChatGPT 9 月访问量 59 亿次，需要新网页回答越来越具体的问题。哥飞的判断：ChatGPT 不看权重和 DR，只看页面描述和实际功能，每个品类会同时试好几个网站。来源：公众号《哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会》(20261106，只取哥飞本人分享部分；其他嘉宾内容不并入)
 - **实操清单**：页面围绕关键词写清楚，第一屏直接给结论并说明收不收费；服务端渲染；别在 Cloudflare 里把 AI 爬虫挡掉；上线当天提交 GSC、用 IndexNow 推给必应；GA 类统计抓不到 AI 爬虫，要自己记录爬虫请求，看爬虫来过后半小时内有没有真实用户点进来。ChatGPT 流量跟热点来得快去得快，谷歌流量是基本盘，两边都要做。来源：公众号《哥飞联合谷歌等一起在上海办了一场 AI 出海与增长探索峰会》(20261106，只取哥飞本人分享部分；其他嘉宾内容不并入)
 
+### 补充（来源：GitHub [yuanqingsong2024/gefei-quest](https://github.com/yuanqingsong2024/gefei-quest)，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。完整蒸馏见 `gefei/references/practitioner/student-gefei-quest-2026-11.md`。
+
+- **GEO / AEO checklist 要点**：经典 SEO、AEO、GEO 重叠，不是三选一；先保证可抓取且正文在 HTML 里，H1 下先写 2–4 句直接回答；想走 ChatGPT 搜索 / 浏览时，robots 放行 OAI-SearchBot 与 ChatGPT-User，并用对应 UA curl 核对。测量上把 AI 助手引荐从 Direct / Referral 里分开，不要把 Cloudflare 与 GA4 加总；不要编造「官方引用率」。来源：https://github.com/yuanqingsong2024/gefei-quest 路径 starters/geo-checklist/（commit eabf7da 起，仓库基线 bf4e128，2026-11-16）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：2026-09-28 起一周内的群友新站

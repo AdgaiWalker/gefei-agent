@@ -51,6 +51,12 @@ metadata:
 - **内链（2023-11-03）**：新页面在首页至少挂五天；向上链接用对方关键词作锚文本；任何页面三次点击可达（articles/04-onpage/2023-11-03-再聊内链建设…md）。
 - **AI 工具站按做内容的方式做（2024-06-11，Henry 案例）**：三级词逐个做扎实内页，用小词排名托起大词（articles/04-onpage/2024-06-11-…md）。
 
+### 补充（来源：GitHub [yuanqingsong2024/gefei-quest](https://github.com/yuanqingsong2024/gefei-quest)，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。完整蒸馏见 `gefei/references/practitioner/student-gefei-quest-2026-11.md`。
+
+- **意图对应页型**：优先把问题分成五类并指定主页型——找工具、找替代、how-to、事实 / FAQ、值不值得（worth-it）。「Best free X / X tool」要落到带可用表单的工具或对比页，不要只写长文；事实题在同一 URL 给直接回答 + FAQ；「Is X worth it」用带可辩护数字的指南。工具页：一个 URL 一件具体任务，首屏就能开始用。来源：https://github.com/yuanqingsong2024/gefei-quest 路径 starters/geo-checklist/（commit eabf7da 起，仓库基线 bf4e128，2026-11-16）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：Phone Number Generator（20231015–20231020）

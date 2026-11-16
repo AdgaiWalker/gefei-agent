@@ -31,6 +31,12 @@
 - **工具页文案对 ChatGPT 同样关键**："大模型是最好骗的，你说你是什么，大模型就相信了。"所以工具页上那段面向关键词、围绕核心主题写的文案，对 ChatGPT 同样有效。做法是先找出用户可能在 ChatGPT 里问的问题，再让 AI 写出能回答这个问题的网页文案。关键词密度仍然要看，目的是让整个页面聚焦主题、不跑偏。来源：公开流传的哥飞群聊截图 2026-10-04
 
 
+### 补充（来源：GitHub [yuanqingsong2024/gefei-quest](https://github.com/yuanqingsong2024/gefei-quest)，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。完整蒸馏见 `gefei/references/practitioner/student-gefei-quest-2026-11.md`。
+
+- **意图对应页型**：优先把问题分成五类并指定主页型——找工具、找替代、how-to、事实 / FAQ、值不值得（worth-it）。「Best free X / X tool」要落到带可用表单的工具或对比页，不要只写长文；事实题在同一 URL 给直接回答 + FAQ；「Is X worth it」用带可辩护数字的指南。工具页：一个 URL 一件具体任务，首屏就能开始用。来源：https://github.com/yuanqingsong2024/gefei-quest 路径 starters/geo-checklist/（commit eabf7da 起，仓库基线 bf4e128，2026-11-16）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：Phone Number Generator（20231015–20231020）

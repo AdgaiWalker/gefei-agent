@@ -51,6 +51,14 @@
 ### 补充（来源：GitHub [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money)，2026-11-09 整理）
 - **哥飞 SEO 工具箱（seo.web.cafe）**（非哥飞原话/学员整理）：学员整理的 Web.Cafe 找需求工具清单里列了它，用途是从模糊概念扩展具体关键词和对标网站。工具本身是否对外开放、怎么收费未核实。来源：https://github.com/gangbo/gefei-make-money 路径 docs/00-methodology/web-cafe-demand-discovery-websites-2026-09-04.md（commit 259b753）
 
+### 补充（来源：GitHub [gangbo/gefei-make-money](https://github.com/gangbo/gefei-make-money)，2026-11-16 整理）【学员内容】
+
+> 【学员内容】非哥飞原话。数字是 2026-11-12 前后的公开榜单快照，下结论前须重查。完整蒸馏见 `gefei/references/practitioner/student-gangbo-2026-11.md`。
+
+- **网页休闲游戏热度调研方法**：只写亲自打开并核对过的页面事实；Poki live / Popular、CrazyGames Hot（自称近 24 小时升温）、StatKraken 累计票、WebGameSpy 同时在线约数、itch.io 网页区要分开看，互不算同一市场。来源：https://github.com/gangbo/gefei-make-money 路径 research/notes/trending-web-casual-games-2026-11-12.md（commit 4a9859f，2026-11-13）
+- **机会判断（学员结论）**：个人开发者优先「两键或一键、秒重开、十几秒内能感到核心乐趣」的轻量 HTML5，不要把「当前在线最高」（如 MineFun.io / Bloxd.io / 大 IP）当成仿做清单；「新钩子 + 门户推荐」可以几天内拉起来。来源同上。
+- **商机筛选补充（学员方法）**：对候选做「Agent 替代测试」——若用户把任务交给 AI Agent 就能完成，则不宜当独立站机会；抗聊天替代 ≠ 市场有空缺 ≠ SEO 能打得进。来源：https://github.com/gangbo/gefei-make-money 路径 research/notes/opportunities-rescreen-2026-11-08.md（commit 07e5cbc，2026-11-11）
+
 ## A1 — 原文中的应用 (Past Application)
 
 ### 案例 1：小工具站上线四个多月（20250825）

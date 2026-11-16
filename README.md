@@ -168,9 +168,11 @@ AI 会自己把它装成 skill。
 
 4. **哆啦的笔记**（个人整理，非哥飞原话）：[西门出海经验，哆啦 2026-10-27 整理](gefei/references/practitioner/ximen-2026-10-27.md)，判词、定价、建站选型、收款问题的实战补充；与哥飞冲突时以哥飞为准。
 
-卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。
+5. **学员内容**（非哥飞原话）：[gangbo/gefei-make-money 2026-11 蒸馏](gefei/references/practitioner/student-gangbo-2026-11.md)、[yuanqingsong2024/gefei-quest 2026-11-10～16 蒸馏](gefei/references/practitioner/student-gefei-quest-2026-11.md)。引用时标注「学员内容」，与哥飞冲突时以哥飞为准；数字须重查。
 
-4. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
+卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。标注为「学员内容」的蒸馏默认同步到本仓库。
+
+6. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可证
 

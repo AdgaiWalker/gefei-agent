@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-16（同步学员内容）
+- 新增两份【学员内容】蒸馏（非哥飞原话）：[gangbo/gefei-make-money 2026-11](gefei/references/practitioner/student-gangbo-2026-11.md)（commit 4a9859f：网页休闲游戏调研、游戏开发 AI Skill/MCP、Ren'Py 网页体积与嵌入、Agent 替代测试）、[yuanqingsong2024/gefei-quest 2026-11-10～16](gefei/references/practitioner/student-gefei-quest-2026-11.md)（commit bf4e128：GEO/AEO checklist 与日更快照要点）。
+- 短引至找新词卡、建站上线卡、变现定价卡、意图结构卡（独立卡+路由副本），以及 ChatGPT 流量路由卡。每条保留「学员内容」标注和来源仓库 / commit。
+- 自本日起，标注为「学员内容」的蒸馏默认同步到本仓库；原文标注"不要外传"或付费会员专属的内容、密钥和个人信息仍不同步。同步 SOURCES、README、CHANGELOG。
+
+
 ## 2026-11-09（公开 OpenGeFei 补充）
 - 同步哥飞本人仓库 [qiayue/OpenGeFei](https://github.com/qiayue/OpenGeFei)（commit 4b9243a）的补充：7 张独立卡和 13 张路由卡加「哥飞本人仓库补充」节（2026-10-27 整理，与旧内容冲突时以该节为准），总路由 gefei/SKILL.md 加「一手来源」说明。
 - SOURCES 的 GitHub 来源表加 OpenGeFei 一行并记下许可：无 LICENSE 文件；README 写明版权归哥飞、欢迎转发分享、转载单篇需注明出处并附原文链接。
