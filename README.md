@@ -170,9 +170,11 @@ AI 会自己把它装成 skill。
 
 5. **学员内容**（非哥飞原话）：[gangbo/gefei-make-money 2026-11 蒸馏](gefei/references/practitioner/student-gangbo-2026-11.md)、[yuanqingsong2024/gefei-quest 2026-11-10～16 蒸馏](gefei/references/practitioner/student-gefei-quest-2026-11.md)。引用时标注「学员内容」，与哥飞冲突时以哥飞为准；数字须重查。
 
+6. **本队执行规则**（工程约束，非哥飞原话）：[本队判词执行规则 2026-11-17](gefei/references/practitioner/team-keyword-rules-2026-11-17.md)，把哥飞判词卡落到流水线时自己加的 5 条兜底（阈值不凑数、数据缺失不给满分、文案不许含糊、同名干扰最多观察、打分来源必须披露）。与哥飞原话冲突时以哥飞为准。
+
 卡片里的补充小节都标明来源，例如「补充（来源：GitHub hlwhut225/gefei-knowledge-base）」「补充（来源：公开流传的哥飞群聊截图 2026-10-22）」。哥飞本人说是猜测的内容标为【推测】。原文明确标注"不要外传"的资料未收录。标注为「学员内容」的蒸馏默认同步到本仓库。
 
-6. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
+7. **读者反馈**：采纳的建议见 [SOURCES.md](SOURCES.md#读者反馈)，更新记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可证
 

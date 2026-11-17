@@ -1,5 +1,11 @@
 # 更新记录
 
+## 2026-11-17（新增本队执行规则）
+
+- 新增 [本队判词执行规则](gefei/references/practitioner/team-keyword-rules-2026-11-17.md)（**工程约束，非哥飞原话**）：本队 2026-11-10 流水线试跑后自定的 5 条兜底——阈值不凑数（做≥70/不做≤50，不够照实发）、数据缺失不给满分（SERP 空时「供」「强」标无数据、总分封顶）、文案不许含糊（有 Suggest 写「无 Trends 数值」）、同名干扰最多算观察并给收窄词、打分来源必须披露且判分标准公开。
+- 性质与边界：前四条对应判词卡已有口径（三分结论、意图一致性），属落地兜底；第五条（来源披露与标准公开）是本队新增，哥飞原文未涉及。与哥飞原话冲突时以哥飞为准。
+- 同步 README（来源清单第 6 条）、SOURCES（新增第 6 节，原校验节改为第 7 节）。判词卡与路由卡未改动，`BUILD_MANIFEST.json` 的 `published_hashes` 保持原样（新文件不在已登记清单内）。
+
 ## 2026-11-16（同步学员内容）
 - 新增两份【学员内容】蒸馏（非哥飞原话）：[gangbo/gefei-make-money 2026-11](gefei/references/practitioner/student-gangbo-2026-11.md)（commit 4a9859f：网页休闲游戏调研、游戏开发 AI Skill/MCP、Ren'Py 网页体积与嵌入、Agent 替代测试）、[yuanqingsong2024/gefei-quest 2026-11-10～16](gefei/references/practitioner/student-gefei-quest-2026-11.md)（commit bf4e128：GEO/AEO checklist 与日更快照要点）。
 - 短引至找新词卡、建站上线卡、变现定价卡、意图结构卡（独立卡+路由副本），以及 ChatGPT 流量路由卡。每条保留「学员内容」标注和来源仓库 / commit。
